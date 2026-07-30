@@ -45,3 +45,10 @@ preenchidas por suposição.
 | OPEN-0016 | Fronteira Markdown/GitHub e Supabase | antes da integração |
 
 Use `00-war-room/templates/decision-record.md` para novos ADRs.
+
+## Decisões incorporadas em 2026-07-30 — Operação contínua
+
+- **ADR-0016:** Conversas relevantes são resumidas em Markdown; decisões formais continuam em ADRs.
+- **ADR-0017:** A operação diária é dirigida por missões, jobs e eventos; sprints agrupam construção e revisão.
+- **ADR-0018:** O Maestro é a interface consolidada do CEO; a ausência do fundador não amplia a autoridade dos agentes.
+- **ADR-0019:** Uma interface móvel segura para o Maestro é requisito futuro e será implantada por etapas.
