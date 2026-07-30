@@ -52,3 +52,7 @@ Use `00-war-room/templates/decision-record.md` para novos ADRs.
 - **ADR-0017:** A operação diária é dirigida por missões, jobs e eventos; sprints agrupam construção e revisão.
 - **ADR-0018:** O Maestro é a interface consolidada do CEO; a ausência do fundador não amplia a autoridade dos agentes.
 - **ADR-0019:** Uma interface móvel segura para o Maestro é requisito futuro e será implantada por etapas.
+
+## Decisão incorporada em 2026-07-30 — Inteligência permanente
+
+- **ADR-0020:** Cientista e Benchmark Setorial são capacidades permanentes desde a fundação. O Cientista pesquisa tecnologias, fontes e métodos; o Benchmark mantém taxonomias, referências e padrões de mercado. Estatístico e Auditor revisam generalização, proveniência e compliance.
