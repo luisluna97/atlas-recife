@@ -56,3 +56,9 @@ Use `00-war-room/templates/decision-record.md` para novos ADRs.
 ## Decisão incorporada em 2026-07-30 — Inteligência permanente
 
 - **ADR-0020:** Cientista e Benchmark Setorial são capacidades permanentes desde a fundação. O Cientista pesquisa tecnologias, fontes e métodos; o Benchmark mantém taxonomias, referências e padrões de mercado. Estatístico e Auditor revisam generalização, proveniência e compliance.
+
+## Decisões incorporadas em 2026-07-30 — Amostra e multi-modelo
+
+- **ADR-0021:** O estudo inicial terá 25 escritórios jurídicos e 25 contábeis em Recife, mais 5 referências nacionais e 3 internacionais por segmento, sujeito à confirmação da distribuição.
+- **ADR-0022:** A operação multi-modelo será orientada por jobs, eventos, horários, orçamento e criticidade; modelos não permanecem ativos sem trabalho.
+- **ADR-0023:** Nenhuma API paga será ativada sem credencial segura, benchmark, orçamento e circuit breaker. Assinaturas pessoais não serão tratadas como infraestrutura autônoma de API.
