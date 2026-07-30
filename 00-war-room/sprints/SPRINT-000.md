@@ -24,7 +24,7 @@ Uma nova máquina recupera o mesmo conhecimento clonando o GitHub.
 - [x] Página inicial, objetivos e status.
 - [x] Registro de conversas.
 - [x] Estrutura de sprints.
-- [ ] Revisão visual e conceitual por Luis.
+- [x] Revisão visual e conceitual por Luis.
 - [ ] Definir cadência padrão.
 - [ ] Documentar sincronização entre máquinas.
 
