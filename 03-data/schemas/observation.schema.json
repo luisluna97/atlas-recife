@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://atlas-recife.local/schemas/observation.schema.json",
+  "title": "Atlas Observation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "observation_id",
+    "entity_ref",
+    "variable_id",
+    "data_class",
+    "value",
+    "observed_at",
+    "source",
+    "method",
+    "executor",
+    "confidence",
+    "run_id"
+  ],
+  "properties": {
+    "schema_version": { "type": "string", "const": "0.1.0" },
+    "observation_id": { "type": "string", "minLength": 1 },
+    "entity_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["entity_type", "entity_id"],
+      "properties": {
+        "entity_type": { "type": "string", "minLength": 1 },
+        "entity_id": { "type": "string", "minLength": 1 }
+      }
+    },
+    "variable_id": { "type": "string", "minLength": 1 },
+    "data_class": {
+      "enum": ["observed", "inferred", "derived", "estimated", "private"]
+    },
+    "value": {},
+    "observed_at": { "type": "string", "format": "date-time" },
+    "valid_until": { "type": ["string", "null"], "format": "date-time" },
+    "source": {
+      "type": "object",
+      "required": ["source_type"],
+      "properties": {
+        "source_type": { "type": "string" },
+        "uri": { "type": ["string", "null"] },
+        "retrieved_at": { "type": ["string", "null"], "format": "date-time" }
+      }
+    },
+    "method": {
+      "type": "object",
+      "required": ["name", "version"],
+      "properties": {
+        "name": { "type": "string" },
+        "version": { "type": "string" }
+      }
+    },
+    "executor": {
+      "type": "object",
+      "required": ["type", "id", "version"],
+      "properties": {
+        "type": { "enum": ["code", "agent", "human", "external"] },
+        "id": { "type": "string" },
+        "version": { "type": "string" },
+        "model": { "type": ["string", "null"] }
+      }
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "confidence": {
+      "type": "object",
+      "required": ["score", "method"],
+      "properties": {
+        "score": { "type": "number", "minimum": 0, "maximum": 1 },
+        "method": { "type": "string" }
+      }
+    },
+    "limitations": { "type": "array", "items": { "type": "string" } },
+    "run_id": { "type": "string", "minLength": 1 },
+    "supersedes": { "type": ["string", "null"] }
+  }
+}

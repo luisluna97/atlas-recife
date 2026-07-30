@@ -1,0 +1,20 @@
+.env
+.env.*
+!.env.example
+
+node_modules/
+.venv/
+__pycache__/
+
+tmp/
+output/
+artifacts/
+screenshots/
+
+.DS_Store
+Thumbs.db
+
+# Obsidian local state; keep shared configuration files opt-in.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
