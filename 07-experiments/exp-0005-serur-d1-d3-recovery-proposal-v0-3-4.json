@@ -1,0 +1,143 @@
+{
+  "artifact_type": "atomic_correction_proposal",
+  "candidate_id": "CAND-LEGAL-REC-17",
+  "organization": "Serur Advogados",
+  "method_version": "pas-serur-recovery-v0.3.4",
+  "status": "pending_independent_audit",
+  "observed_at": "2026-07-31T14:20:00-03:00",
+  "executor": "serur-recovery-codex",
+  "scope": "D1-D3 unknown recovery only; official domain; no submission, contact, prospecting or score persistence",
+  "source": {
+    "requested_url": "https://serur.com.br/segmentos/segmento-servicos-financeiros",
+    "final_url": "https://serur.com.br/segmentos/segmento-servicos-financeiros",
+    "title": "Serviços Financeiros | Serur",
+    "retrieval_method": "official-domain web open; parsed public HTML",
+    "retrieval_result": "page available with H1, descriptive sections, client profile, practices and named leadership",
+    "page_body_sha256": null,
+    "hash_limitation": "The web-open surface did not expose raw response bytes; direct runtime fetch failed. No page-body hash is claimed. The repository artifact itself must be hashed after creation.",
+    "browser_limitation": "The in-app browser was unavailable in this execution; no visual-layout or interaction claim is made.",
+    "source_lines": [15, 18, 21, 41, 73, 75, 82, 158]
+  },
+  "proposals": [
+    {
+      "variable_id": "D1.1",
+      "proposed_value": 3,
+      "applicability": "applicable",
+      "confidence": 0.92,
+      "evidence_id": "SERUR-R034-D1-1",
+      "exact_excerpt": "Atuação jurídica no setor financeiro regulado",
+      "element_or_action": "H1 and first descriptive section observed in parsed public HTML",
+      "rationale": "A dedicated official page explicitly presents legal services for the regulated financial sector."
+    },
+    {
+      "variable_id": "D1.2",
+      "proposed_value": 3,
+      "applicability": "applicable",
+      "confidence": 0.92,
+      "evidence_id": "SERUR-R034-D1-2",
+      "exact_excerpt": "Perfil de clientes",
+      "element_or_action": "dedicated client-profile heading and paragraph observed",
+      "rationale": "The page identifies financial-sector organization types and describes their regulated and litigious operating context."
+    },
+    {
+      "variable_id": "D1.3",
+      "proposed_value": 3,
+      "applicability": "applicable",
+      "confidence": 0.91,
+      "evidence_id": "SERUR-R034-D1-3",
+      "exact_excerpt": "Atuação jurídica no setor financeiro regulado",
+      "element_or_action": "specialty-specific page title and H1 observed",
+      "rationale": "The selected proposition is given its own official sector page and primary heading."
+    },
+    {
+      "variable_id": "D1.4",
+      "proposed_value": 2,
+      "applicability": "applicable",
+      "confidence": 0.84,
+      "evidence_id": "SERUR-R034-D1-4",
+      "exact_excerpt": "Contencioso especializado",
+      "element_or_action": "differentials section observed with four separately named capabilities",
+      "rationale": "The page states concrete modes of work, but their superiority or effectiveness is not independently demonstrated."
+    },
+    {
+      "variable_id": "D2.1",
+      "proposed_value": 3,
+      "applicability": "applicable",
+      "confidence": 0.96,
+      "evidence_id": "SERUR-R034-D2-1",
+      "exact_excerpt": "Atuação jurídica no setor financeiro regulado",
+      "element_or_action": "official dedicated route returned a specialty-specific page",
+      "rationale": "A current dedicated page exists for the frozen financial-services specialty."
+    },
+    {
+      "variable_id": "D2.3",
+      "proposed_value": 3,
+      "applicability": "applicable",
+      "confidence": 0.94,
+      "evidence_id": "SERUR-R034-D2-3",
+      "exact_excerpt": "Atuação jurídica no setor financeiro regulado",
+      "element_or_action": "page title, H1 and subordinate headings observed",
+      "rationale": "The title and heading hierarchy consistently identify the regulated financial-sector proposition."
+    },
+    {
+      "variable_id": "D3.1",
+      "proposed_value": 3,
+      "applicability": "applicable",
+      "confidence": 0.91,
+      "evidence_id": "SERUR-R034-D3-1",
+      "exact_excerpt": "ambiente altamente regulado e judicializado",
+      "element_or_action": "opening problem statement and detailed service paragraph observed",
+      "rationale": "The page specifies regulatory disputes, administrative proceedings, liabilities and risk-control problems."
+    },
+    {
+      "variable_id": "D3.2",
+      "proposed_value": 3,
+      "applicability": "applicable",
+      "confidence": 0.91,
+      "evidence_id": "SERUR-R034-D3-2",
+      "exact_excerpt": "processos administrativos sancionadores",
+      "element_or_action": "scope paragraph and linked-practices list observed",
+      "rationale": "The page describes litigation, consulting, regulatory proceedings, liability management and multidisciplinary legal coverage."
+    },
+    {
+      "variable_id": "D3.3",
+      "proposed_value": 3,
+      "applicability": "applicable",
+      "confidence": 0.89,
+      "evidence_id": "SERUR-R034-D3-3",
+      "exact_excerpt": "gestão de passivos",
+      "element_or_action": "applications described in service and client-profile sections",
+      "rationale": "Multiple applications are named, including disputes, sanctions, liabilities and strategic decisions in regulated operations."
+    },
+    {
+      "variable_id": "D3.4",
+      "proposed_value": 2,
+      "applicability": "applicable",
+      "confidence": 0.84,
+      "evidence_id": "SERUR-R034-D3-4",
+      "exact_excerpt": "Experiência consolidada",
+      "element_or_action": "declared-experience section and named leadership profiles observed",
+      "rationale": "Experience and relevant leadership are publicly declared, but this recovery did not independently verify outcomes or recognition images."
+    },
+    {
+      "variable_id": "D3.5",
+      "proposed_value": null,
+      "applicability": "unknown",
+      "confidence": 0.4,
+      "evidence_id": "SERUR-R034-D3-5",
+      "exact_excerpt": null,
+      "element_or_action": "no reproducible originality or cross-page repetition test executed",
+      "rationale": "A single official page cannot establish authorship or absence of substantive repetition."
+    }
+  ],
+  "controls": {
+    "proposals_total": 11,
+    "proposals_known": 10,
+    "proposals_preserved_unknown": 1,
+    "sqlite_modified": false,
+    "scores_persisted": false,
+    "forms_submitted": false,
+    "contacts_activated": false,
+    "external_domains_used_as_evidence": false
+  }
+}

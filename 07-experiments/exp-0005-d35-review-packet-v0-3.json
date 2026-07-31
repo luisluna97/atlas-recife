@@ -1,0 +1,375 @@
+{
+  "packet_version": "d35-review-packet-v0.3",
+  "status": "blind_labeling_pending",
+  "created_at": "2026-07-31",
+  "source_snapshot_sha256": "f74665ba87bb96c005eb8bcfaccaed22d40dcd032a4cd26b2b50a0860fd65891",
+  "selection": {
+    "minimum_words": 150,
+    "same_page_type_only": true,
+    "partition_rule": "per candidate: pair_id sort; first max(1,floor(30%)) is holdout when candidate has >=2 pairs",
+    "algorithm_features_excluded": true
+  },
+  "label_contract": {
+    "page_type_valid": [
+      "yes",
+      "no",
+      "uncertain"
+    ],
+    "label": [
+      "repeated_template",
+      "distinct_content",
+      "uncertain"
+    ],
+    "confidence": [
+      0,
+      1
+    ],
+    "rationale": "required"
+  },
+  "counts": {
+    "pairs": 13,
+    "development": 10,
+    "holdout": 3,
+    "candidates_with_pairs": 5
+  },
+  "items": [
+    {
+      "pair_id": "D35PAIR-3fb07173f6a2",
+      "page_type": "other",
+      "page_a": {
+        "evidence_id": "PASPAGE-CAND-ACCOUNT-REC-14-175e81491d9e",
+        "url": "https://marjuhh.com.br/assessoria-contabil/",
+        "text_sha256": "c2bce75d2c10647403ddd6029768bde378667832376b2638d03614d9a7378010",
+        "review_excerpt": "assessoria contabil em recife marjuhh assessoria contabil marjuhh conheca a marjuhh clientes depoimentos fale conosco faq trabalhe conosco politica de privacidade solucoes assessoria contabil assessoria contabil em recife para agencia de marketing digital assessoria contabil em recife para arquitetos e designers de interiores assessoria contabil em recife para construcao civil assessoria contabil em recife para corretores de seguros e imoveis assessoria contabil em recife para e commerce assessoria contabil em recife para hoteis e pousadas assessoria contabil em recife para motion designer assessoria contabil em recife para profissionais da saude assessoria contabil em recife para supermercados assessoria contabil em recife para tatuador e estudio de tatuagem assessoria contabil em recife para venda de veiculos e empresas de auto pecas assessoria contabil em recife para youtubers e infoprodutores assessoria contabil para bares e restaurantes em recife assessoria contabil para importacao de produtos assessoria contabil em recife para industriais solucoes empresariais trocar de contador abra sua empresa em recife declaracao de imposto de renda ir planos especializacoes blog contato 81 98761 4887 contato marjuhh com br r leonor soares pessoa 15 imbiribeira recife pe 51170 600 fale conosco marjuhh conheca a marjuhh clientes depoimentos fale conosco faq trabalhe conosco politica de privacidade solucoes assessoria contabil assessoria contabil em recife para agencia de marketing digital assessoria contabil em recife para arquitetos e designers"
+      },
+      "page_b": {
+        "evidence_id": "PASPAGE-CAND-ACCOUNT-REC-14-df9e19f21f11",
+        "url": "https://marjuhh.com.br/trabalhe-conosco/",
+        "text_sha256": "5de98624a1b102b2516070cad1fed2cd4fd90b3b2e9fb1ebddc63eca7eebc389",
+        "review_excerpt": "trabalhe conosco marjuhh assessoria contabil marjuhh conheca a marjuhh clientes depoimentos fale conosco faq trabalhe conosco politica de privacidade solucoes assessoria contabil assessoria contabil em recife para agencia de marketing digital assessoria contabil em recife para arquitetos e designers de interiores assessoria contabil em recife para construcao civil assessoria contabil em recife para corretores de seguros e imoveis assessoria contabil em recife para e commerce assessoria contabil em recife para hoteis e pousadas assessoria contabil em recife para motion designer assessoria contabil em recife para profissionais da saude assessoria contabil em recife para supermercados assessoria contabil em recife para tatuador e estudio de tatuagem assessoria contabil em recife para venda de veiculos e empresas de auto pecas assessoria contabil em recife para youtubers e infoprodutores assessoria contabil para bares e restaurantes em recife assessoria contabil para importacao de produtos assessoria contabil em recife para industriais solucoes empresariais trocar de contador abra sua empresa em recife declaracao de imposto de renda ir planos especializacoes blog contato 81 98761 4887 contato marjuhh com br r leonor soares pessoa 15 imbiribeira recife pe 51170 600 fale conosco marjuhh conheca a marjuhh clientes depoimentos fale conosco faq trabalhe conosco politica de privacidade solucoes assessoria contabil assessoria contabil em recife para agencia de marketing digital assessoria contabil em recife para arquitetos e designers de interiores"
+      },
+      "partition": "holdout",
+      "candidate_id_hidden": true,
+      "organization_may_be_visible_in_url_or_text": true,
+      "algorithm_features_hidden": true,
+      "review": {
+        "page_type_valid": null,
+        "label": null,
+        "confidence": null,
+        "rationale": null
+      }
+    },
+    {
+      "pair_id": "D35PAIR-40e55c275957",
+      "page_type": "specialty",
+      "page_a": {
+        "evidence_id": "PASPAGE-CAND-LEGAL-INT-03-2ec8d13e5671",
+        "url": "https://www.cliffordchance.com/expertise/sectors.html",
+        "text_sha256": "ddcee2b3ed81c93cd43e0ee25660484a242da5d89eacd92030c6062fe2987f7c",
+        "review_excerpt": "clients sectors search keywords skip to main content people places search for a lawyer search people x22 data thistitle please use a valid word splecial characters are not allowed except apostrophe and hyphen placeholder enter name submit search regions africa americas asia pacific europe middle east turkiye visit this section offices abu dhabi amsterdam barcelona beijing brussels bucharest casablanca dubai dusseldorf frankfurt hong kong houston istanbul london luxembourg madrid milan munich newcastle new york paris perth prague riyadh rome sao paulo shanghai singapore sydney tokyo warsaw washington visit this section visit this section expertise advising on the issues that are critical to our clients clients sectors banks consumer goods retail energy resources entertainment sports financial services healthcare life sciences industrials transport and mobility infrastructure insurance private equity real estate technology media telecommunications visit this section services antitrust capital markets corporate data centres ai compute infrastructure energy transition finance funds investment management intellectual property litigation dispute resolution real estate sustainability esg tax pensions employment incentives tech group visit this section visit this section insights sharing our knowledge and expertise resources apps blogs briefings events hubs and toolkits podcasts premium services visit this section blogs antitrust fdi arbitration insights construction esg and b hr group litigation healthcare life sciences innovation insurance regtalk rifc responsible business talking tech visit this section thought leadership"
+      },
+      "page_b": {
+        "evidence_id": "PASPAGE-CAND-LEGAL-INT-03-deb17c202e50",
+        "url": "https://www.cliffordchance.com/expertise/sectors/consumer_goods_and_retail.html",
+        "text_sha256": "7aca40d882c503227197c0f91020d480017b9bc956b1b6d92d8eaa278570fdfb",
+        "review_excerpt": "consumer goods retail search keywords skip to main content people places search for a lawyer search people x22 data thistitle please use a valid word splecial characters are not allowed except apostrophe and hyphen placeholder enter name submit search regions africa americas asia pacific europe middle east turkiye visit this section offices abu dhabi amsterdam barcelona beijing brussels bucharest casablanca dubai dusseldorf frankfurt hong kong houston istanbul london luxembourg madrid milan munich newcastle new york paris perth prague riyadh rome sao paulo shanghai singapore sydney tokyo warsaw washington visit this section visit this section expertise advising on the issues that are critical to our clients clients sectors banks consumer goods retail energy resources entertainment sports financial services healthcare life sciences industrials transport and mobility infrastructure insurance private equity real estate technology media telecommunications visit this section services antitrust capital markets corporate data centres ai compute infrastructure energy transition finance funds investment management intellectual property litigation dispute resolution real estate sustainability esg tax pensions employment incentives tech group visit this section visit this section insights sharing our knowledge and expertise resources apps blogs briefings events hubs and toolkits podcasts premium services visit this section blogs antitrust fdi arbitration insights construction esg and b hr group litigation healthcare life sciences innovation insurance regtalk rifc responsible business talking tech visit this section thought"
+      },
+      "partition": "holdout",
+      "candidate_id_hidden": true,
+      "organization_may_be_visible_in_url_or_text": true,
+      "algorithm_features_hidden": true,
+      "review": {
+        "page_type_valid": null,
+        "label": null,
+        "confidence": null,
+        "rationale": null
+      }
+    },
+    {
+      "pair_id": "D35PAIR-5521266d3c4a",
+      "page_type": "specialty",
+      "page_a": {
+        "evidence_id": "PASPAGE-CAND-ACCOUNT-REC-18-e0b3aa7cf0db",
+        "url": "https://trustcontabilidade.com.br/contabilidade-para-dentistas-em-recife-pe/",
+        "text_sha256": "4115beaec86d1b569ff5b8701041e132e72bbdca65103e6d4f200b4449a71283",
+        "review_excerpt": "dentistas 8211 trust contabilidade home especialidades dentistas medicos veterinarios servicos consultoria terceirizacao societario treinamento bpo financeiro sobre blog contato home especialidades dentistas medicos veterinarios servicos consultoria terceirizacao societario treinamento bpo financeiro sobre blog contato facebook instagram linkedin youtube dentistas contabilidade para dentistas em recife pe nos sabemos que o dia a dia de um dentista e muito complicado voce precisa atender bem os seus clientes e isso envolve conhecer a necessidade de cada um e encontrar as melhores alternativas para seus problemas preencha o formulario que um especialista entrara em contato qual a melhor forma de entrarmos em contato e mail ligacao whatsapp li e concordo com a politica de privacidade enviar alem disso precisa encontrar no mercado materiais que tenham boa durabilidade apresentem um resultado final atraente e com um baixo custo permitindo que seu preco seja competitivo porem hoje voce tem a oportunidade de facilitar a gestao da sua empresa e nos vamos te explicar como isso sera possivel preciso entender melhor como uma contabilidade para dentista em pernambuco auxilia na administracao da minha clinica contador o profissional que vai te ajudar no sucesso da sua gestao nesse contexto a sua contabilidade deve ser uma grande aliada e parceira na conducao dos seus negocios isso porque o seu trabalho esta diretamente relacionado a entender a posicao do seu"
+      },
+      "page_b": {
+        "evidence_id": "PASPAGE-CAND-ACCOUNT-REC-18-f4f2a160735c",
+        "url": "https://trustcontabilidade.com.br/contabilidade-para-veterinarios-em-recife-pe/",
+        "text_sha256": "df79fdc5fe104bb1a0f62b72372adaa1d1b490ad7c009c9eef14be951aef1fbe",
+        "review_excerpt": "veterinarios 8211 trust contabilidade home especialidades dentistas medicos veterinarios servicos consultoria terceirizacao societario treinamento bpo financeiro sobre blog contato home especialidades dentistas medicos veterinarios servicos consultoria terceirizacao societario treinamento bpo financeiro sobre blog contato facebook instagram linkedin youtube veterinarios contabilidade para veterinarios em recife pe hoje nossa sociedade esta entendendo cada vez mais a importancia dos animais para o equilibrio ambiental do nosso planeta nesse contexto existe um profissional que esta sendo requisitado cada vez mais e vem ganhando valor e espaco em nossa sociedade o veterinario por conta disso vemos um surgimento cada vez maior do numero de clinicas e profissionais que se especializam nessa area preencha o formulario que um especialista entrara em contato qual a melhor forma de entrarmos em contato e mail ligacao whatsapp li e concordo com a politica de privacidade enviar mas como voce ja deve ter percebido a concorrencia tambem aumenta e fica cada vez mais dificil de se manter nesse setor porem voce sabia que o trabalho de uma contabilidade para veterinarios em pernambuco facilita a gestao do seu negocio e pode te ajudar a manter sua empresa mais competitiva nesse mercado entrar em contato entenda como uma contabilidade auxilia veterinarios a terem sucesso na administracao de seus negocios talvez voce que busca uma contabilidade para veterinarios em pernambuco nao saiba que"
+      },
+      "partition": "holdout",
+      "candidate_id_hidden": true,
+      "organization_may_be_visible_in_url_or_text": true,
+      "algorithm_features_hidden": true,
+      "review": {
+        "page_type_valid": null,
+        "label": null,
+        "confidence": null,
+        "rationale": null
+      }
+    },
+    {
+      "pair_id": "D35PAIR-7aed671378fc",
+      "page_type": "specialty",
+      "page_a": {
+        "evidence_id": "PASPAGE-CAND-LEGAL-INT-03-2ec8d13e5671",
+        "url": "https://www.cliffordchance.com/expertise/sectors.html",
+        "text_sha256": "ddcee2b3ed81c93cd43e0ee25660484a242da5d89eacd92030c6062fe2987f7c",
+        "review_excerpt": "clients sectors search keywords skip to main content people places search for a lawyer search people x22 data thistitle please use a valid word splecial characters are not allowed except apostrophe and hyphen placeholder enter name submit search regions africa americas asia pacific europe middle east turkiye visit this section offices abu dhabi amsterdam barcelona beijing brussels bucharest casablanca dubai dusseldorf frankfurt hong kong houston istanbul london luxembourg madrid milan munich newcastle new york paris perth prague riyadh rome sao paulo shanghai singapore sydney tokyo warsaw washington visit this section visit this section expertise advising on the issues that are critical to our clients clients sectors banks consumer goods retail energy resources entertainment sports financial services healthcare life sciences industrials transport and mobility infrastructure insurance private equity real estate technology media telecommunications visit this section services antitrust capital markets corporate data centres ai compute infrastructure energy transition finance funds investment management intellectual property litigation dispute resolution real estate sustainability esg tax pensions employment incentives tech group visit this section visit this section insights sharing our knowledge and expertise resources apps blogs briefings events hubs and toolkits podcasts premium services visit this section blogs antitrust fdi arbitration insights construction esg and b hr group litigation healthcare life sciences innovation insurance regtalk rifc responsible business talking tech visit this section thought leadership"
+      },
+      "page_b": {
+        "evidence_id": "PASPAGE-CAND-LEGAL-INT-03-3c531c380656",
+        "url": "https://www.cliffordchance.com/expertise/sectors/banks.html",
+        "text_sha256": "ec46320e4e13ae0a6632feadc9139539a8c3b757aa8141c86b4b741250b43289",
+        "review_excerpt": "banks search keywords skip to main content people places search for a lawyer search people x22 data thistitle please use a valid word splecial characters are not allowed except apostrophe and hyphen placeholder enter name submit search regions africa americas asia pacific europe middle east turkiye visit this section offices abu dhabi amsterdam barcelona beijing brussels bucharest casablanca dubai dusseldorf frankfurt hong kong houston istanbul london luxembourg madrid milan munich newcastle new york paris perth prague riyadh rome sao paulo shanghai singapore sydney tokyo warsaw washington visit this section visit this section expertise advising on the issues that are critical to our clients clients sectors banks consumer goods retail energy resources entertainment sports financial services healthcare life sciences industrials transport and mobility infrastructure insurance private equity real estate technology media telecommunications visit this section services antitrust capital markets corporate data centres ai compute infrastructure energy transition finance funds investment management intellectual property litigation dispute resolution real estate sustainability esg tax pensions employment incentives tech group visit this section visit this section insights sharing our knowledge and expertise resources apps blogs briefings events hubs and toolkits podcasts premium services visit this section blogs antitrust fdi arbitration insights construction esg and b hr group litigation healthcare life sciences innovation insurance regtalk rifc responsible business talking tech visit this section thought leadership cop30"
+      },
+      "partition": "development",
+      "candidate_id_hidden": true,
+      "organization_may_be_visible_in_url_or_text": true,
+      "algorithm_features_hidden": true,
+      "review": {
+        "page_type_valid": null,
+        "label": null,
+        "confidence": null,
+        "rationale": null
+      }
+    },
+    {
+      "pair_id": "D35PAIR-9033e6ea2634",
+      "page_type": "specialty",
+      "page_a": {
+        "evidence_id": "PASPAGE-CAND-LEGAL-INT-03-3c531c380656",
+        "url": "https://www.cliffordchance.com/expertise/sectors/banks.html",
+        "text_sha256": "ec46320e4e13ae0a6632feadc9139539a8c3b757aa8141c86b4b741250b43289",
+        "review_excerpt": "banks search keywords skip to main content people places search for a lawyer search people x22 data thistitle please use a valid word splecial characters are not allowed except apostrophe and hyphen placeholder enter name submit search regions africa americas asia pacific europe middle east turkiye visit this section offices abu dhabi amsterdam barcelona beijing brussels bucharest casablanca dubai dusseldorf frankfurt hong kong houston istanbul london luxembourg madrid milan munich newcastle new york paris perth prague riyadh rome sao paulo shanghai singapore sydney tokyo warsaw washington visit this section visit this section expertise advising on the issues that are critical to our clients clients sectors banks consumer goods retail energy resources entertainment sports financial services healthcare life sciences industrials transport and mobility infrastructure insurance private equity real estate technology media telecommunications visit this section services antitrust capital markets corporate data centres ai compute infrastructure energy transition finance funds investment management intellectual property litigation dispute resolution real estate sustainability esg tax pensions employment incentives tech group visit this section visit this section insights sharing our knowledge and expertise resources apps blogs briefings events hubs and toolkits podcasts premium services visit this section blogs antitrust fdi arbitration insights construction esg and b hr group litigation healthcare life sciences innovation insurance regtalk rifc responsible business talking tech visit this section thought leadership cop30"
+      },
+      "page_b": {
+        "evidence_id": "PASPAGE-CAND-LEGAL-INT-03-deb17c202e50",
+        "url": "https://www.cliffordchance.com/expertise/sectors/consumer_goods_and_retail.html",
+        "text_sha256": "7aca40d882c503227197c0f91020d480017b9bc956b1b6d92d8eaa278570fdfb",
+        "review_excerpt": "consumer goods retail search keywords skip to main content people places search for a lawyer search people x22 data thistitle please use a valid word splecial characters are not allowed except apostrophe and hyphen placeholder enter name submit search regions africa americas asia pacific europe middle east turkiye visit this section offices abu dhabi amsterdam barcelona beijing brussels bucharest casablanca dubai dusseldorf frankfurt hong kong houston istanbul london luxembourg madrid milan munich newcastle new york paris perth prague riyadh rome sao paulo shanghai singapore sydney tokyo warsaw washington visit this section visit this section expertise advising on the issues that are critical to our clients clients sectors banks consumer goods retail energy resources entertainment sports financial services healthcare life sciences industrials transport and mobility infrastructure insurance private equity real estate technology media telecommunications visit this section services antitrust capital markets corporate data centres ai compute infrastructure energy transition finance funds investment management intellectual property litigation dispute resolution real estate sustainability esg tax pensions employment incentives tech group visit this section visit this section insights sharing our knowledge and expertise resources apps blogs briefings events hubs and toolkits podcasts premium services visit this section blogs antitrust fdi arbitration insights construction esg and b hr group litigation healthcare life sciences innovation insurance regtalk rifc responsible business talking tech visit this section thought"
+      },
+      "partition": "development",
+      "candidate_id_hidden": true,
+      "organization_may_be_visible_in_url_or_text": true,
+      "algorithm_features_hidden": true,
+      "review": {
+        "page_type_valid": null,
+        "label": null,
+        "confidence": null,
+        "rationale": null
+      }
+    },
+    {
+      "pair_id": "D35PAIR-9aa021548552",
+      "page_type": "specialty",
+      "page_a": {
+        "evidence_id": "PASPAGE-CAND-LEGAL-REC-03-9b65e5f37ba0",
+        "url": "https://jhn.jur.adv.br/adm-de-bens-e-servicos",
+        "text_sha256": "5b713e15eb65382e8f8a933e4248bb8f14c7512c021610b81a89d6413c35995c",
+        "review_excerpt": "j h n advogados associados quem somos areas de atuacao clientes equipe mais endereco contato adm de bens e servicos experiencia comprometimento e seguranca controle de processos usuario senha entrar newsletter nome email enviar endereco av domingos ferreira 1486 sl 05 boa viagem cep 51111 020 recife pe telefone 81 8621 6769 81 9710 5225 81 3032 0097 81 3032 0098 email jhn advocacia gmail com adm de bens e servicos o jhn administra o de bens e servi os uma vertente do jhn advogados associados onde devido ao grande apelo de parte de nossos clientes em requerer uma assist ncia mais efetiva de nosso escrit rio em administra o condominial e assessoria jur dica para condom nios e recupera o de cr ditos condominiais foi iniciada a parte de administra o com uma equipe especializada de advogados contadores e administradores ofertamos para os nossos clientes os melhores or amentos e orienta es em administra o condominial e assim sendo gerando solu es nas diversas reas que envolvem uma boa administra o para o s ndico e para o condom nio contratante passamos em anexo a formata o de nosso planejamento de trabalho onde aproveitamos desde j para agradecer pela oportunidade de apresentar a nossa proposta para melhor avalia o deste condom nio produtos trabalhista m dulo 1 1 folha"
+      },
+      "page_b": {
+        "evidence_id": "PASPAGE-CAND-LEGAL-REC-03-f08af4fbf184",
+        "url": "https://jhn.jur.adv.br/areas-de-atuacao",
+        "text_sha256": "22fcec4585f8082b6a83f23250d0a50083e6b012621547ccb59e38ea485ca80c",
+        "review_excerpt": "j h n advogados associados quem somos areas de atuacao clientes equipe mais endereco contato adm de bens e servicos experiencia comprometimento e seguranca controle de processos usuario senha entrar newsletter nome email enviar endereco av domingos ferreira 1486 sl 05 boa viagem cep 51111 020 recife pe telefone 81 8621 6769 81 9710 5225 81 3032 0097 81 3032 0098 email jhn advocacia gmail com areas de atuacao observa se atualmente no mercado juridico uma tendencia a especificacao do conhecimento cada vez mais surgindo escritorios de advocacia focados em areas especificas dentro do direito embora esta tendencia seja considerada por muitos como um movimento irreversivel do comportamento juridico nacional diversos outros escritorios de advocacia acreditam e apostam que a melhor saida e justamente o contrario ou seja investir para apresentar aos clientes a maior gama de solucoes juridicas possivel dentro das mais variadas areas do direito de qualquer sorte resulta inegavel que independente da linha estrategica adotada o website deve refletir as areas de atuacao do escritorio seja ele um pequeno medio ou ate mesmo um grande escritorio de advocacia sugere se que nesta aba do website seja inserido um pequeno texto tendendo a uma maior generalidade explicitando a abrangencia da atuacao do escritorio de advocacia com a insercao das respectivas areas de atuacao para visualizacao atraves do painel"
+      },
+      "partition": "development",
+      "candidate_id_hidden": true,
+      "organization_may_be_visible_in_url_or_text": true,
+      "algorithm_features_hidden": true,
+      "review": {
+        "page_type_valid": null,
+        "label": null,
+        "confidence": null,
+        "rationale": null
+      }
+    },
+    {
+      "pair_id": "D35PAIR-afc4a8cd4f69",
+      "page_type": "specialty",
+      "page_a": {
+        "evidence_id": "PASPAGE-CAND-ACCOUNT-REC-14-48e01683ee34",
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-agencia-de-marketing-digital/",
+        "text_sha256": "9ab73d6a986613907168a1b161641777d0a00bc5f2bf3f915ea4df8039da972c",
+        "review_excerpt": "assessoria contabil em recife para agencia de marketing digital marjuhh marjuhh conheca a marjuhh clientes depoimentos fale conosco faq trabalhe conosco politica de privacidade solucoes assessoria contabil assessoria contabil em recife para agencia de marketing digital assessoria contabil em recife para arquitetos e designers de interiores assessoria contabil em recife para construcao civil assessoria contabil em recife para corretores de seguros e imoveis assessoria contabil em recife para e commerce assessoria contabil em recife para hoteis e pousadas assessoria contabil em recife para motion designer assessoria contabil em recife para profissionais da saude assessoria contabil em recife para supermercados assessoria contabil em recife para tatuador e estudio de tatuagem assessoria contabil em recife para venda de veiculos e empresas de auto pecas assessoria contabil em recife para youtubers e infoprodutores assessoria contabil para bares e restaurantes em recife assessoria contabil para importacao de produtos assessoria contabil em recife para industriais solucoes empresariais trocar de contador abra sua empresa em recife declaracao de imposto de renda ir planos especializacoes blog contato 81 98761 4887 contato marjuhh com br r leonor soares pessoa 15 imbiribeira recife pe 51170 600 fale conosco marjuhh conheca a marjuhh clientes depoimentos fale conosco faq trabalhe conosco politica de privacidade solucoes assessoria contabil assessoria contabil em recife para agencia de marketing digital assessoria contabil em recife para"
+      },
+      "page_b": {
+        "evidence_id": "PASPAGE-CAND-ACCOUNT-REC-14-bcf4ebb285ff",
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-arquitetos-e-designers-de-interiores/",
+        "text_sha256": "c83fe9175084ad1087706dbb49f1bad8768b2ac2d371d174fdf0d18f719e42b3",
+        "review_excerpt": "assessoria contabil em recife para arquitetos e designers de interiores marjuhh marjuhh conheca a marjuhh clientes depoimentos fale conosco faq trabalhe conosco politica de privacidade solucoes assessoria contabil assessoria contabil em recife para agencia de marketing digital assessoria contabil em recife para arquitetos e designers de interiores assessoria contabil em recife para construcao civil assessoria contabil em recife para corretores de seguros e imoveis assessoria contabil em recife para e commerce assessoria contabil em recife para hoteis e pousadas assessoria contabil em recife para motion designer assessoria contabil em recife para profissionais da saude assessoria contabil em recife para supermercados assessoria contabil em recife para tatuador e estudio de tatuagem assessoria contabil em recife para venda de veiculos e empresas de auto pecas assessoria contabil em recife para youtubers e infoprodutores assessoria contabil para bares e restaurantes em recife assessoria contabil para importacao de produtos assessoria contabil em recife para industriais solucoes empresariais trocar de contador abra sua empresa em recife declaracao de imposto de renda ir planos especializacoes blog contato 81 98761 4887 contato marjuhh com br r leonor soares pessoa 15 imbiribeira recife pe 51170 600 fale conosco marjuhh conheca a marjuhh clientes depoimentos fale conosco faq trabalhe conosco politica de privacidade solucoes assessoria contabil assessoria contabil em recife para agencia de marketing digital assessoria contabil em recife"
+      },
+      "partition": "development",
+      "candidate_id_hidden": true,
+      "organization_may_be_visible_in_url_or_text": true,
+      "algorithm_features_hidden": true,
+      "review": {
+        "page_type_valid": null,
+        "label": null,
+        "confidence": null,
+        "rationale": null
+      }
+    },
+    {
+      "pair_id": "D35PAIR-b5cd6e742219",
+      "page_type": "institutional",
+      "page_a": {
+        "evidence_id": "PASPAGE-CAND-LEGAL-NAT-05-8d2fd1f4eeb5",
+        "url": "https://www.demarest.com.br/nossa-historia/",
+        "text_sha256": "5dbe72d2f67eec404739cc2082e99b313ac479dc9afafbe88ee26c37f31b317a",
+        "review_excerpt": "nossa historia demarest sobre nos areas de atuacao profissionais insights en inicio home nos demarest nossa historia sobre nos cultura profissionais carreiras servicos areas de atuacao noticias insights contato fale conosco a historia do demarest se mistura com a do mundo o ano era 1948 escritorios de advocacia centrados em grandes nomes do direito dominavam o pais o resto e historia e voce a conhece aqui 40 50 60 70 80 90 2000 2010 anos 40 o comeco de uma era aconteceu no centro do palco da advocacia brasileira um encontro um tanto inusitado um cidadao norte americano e um brasileiro prestes a fundar o que se tornaria um dos maiores escritorios de advocacia do brasil inaugurava se oficialmente o demarest e almeida um conjunto de quatro pequenas salas no 5 andar na rua 15 de novembro no centro de sao paulo advocacia na decada de 40 um anel rubi nos dedos um titulo de doutor juridiques na epoca os escritorios de advocacia tradicionais do brasil eram centrados na figura do advogado um profissional liberal e insubstituivel caracteristica do direito romano germanico o demarest e almeida iria se juntar aos escritorios que na epoca podiam ser contados nos dedos e cuja marca sempre importou mais do que o nome do advogado joao batista pereira de almeida kenneth e demarest o"
+      },
+      "page_b": {
+        "evidence_id": "PASPAGE-CAND-LEGAL-NAT-05-55125f5ec5eb",
+        "url": "https://www.demarest.com.br/sobre-nos/",
+        "text_sha256": "96dddc1c350e9967f1a0061eb3bab95f25e304c8369b1d674b908299d705bfbd",
+        "review_excerpt": "sobre nos demarest sobre nos areas de atuacao profissionais insights en inicio home nos demarest nossa historia sobre nos cultura profissionais carreiras servicos areas de atuacao noticias insights contato fale conosco sobre nos uma historia dedicada a transcender possibilidades mais de 75 anos de advocacia nos tornaram um dos escritorios mais respeitados do brasil e da america latina e ensinaram que para se manter relevante e preciso sim valorizar a nossa historia mas tambem se reinventar ter coragem e enxergar alem do obvio e preciso transcender possibilidades aliamos conhecimento tecnico visao de futuro e um profundo entendimento do cliente para construir juntos uma solucao juridica que supere as expectativas o que nos coloca constantemente no ranking dos principais escritorios nao e so a excelencia juridica mas a consciencia de que todos somos um escritorio clientes e parceiros o escritorio somos um dos escritorios de advocacia mais respeitados do brasil e da america latina com mais de 75 anos de existencia nunca nos afastamos do nosso objetivo principal e compromisso de longo prazo oferecer servicos juridicos com o mais alto padrao de qualidade e excelencia prestados por advogados altamente motivados para contribuir com o sucesso comercial de nossos clientes com uma abordagem integrada e equipes cuidadosamente adaptadas as necessidades e aos projetos de nossos clientes nossos advogados estao sempre prontos e"
+      },
+      "partition": "development",
+      "candidate_id_hidden": true,
+      "organization_may_be_visible_in_url_or_text": true,
+      "algorithm_features_hidden": true,
+      "review": {
+        "page_type_valid": null,
+        "label": null,
+        "confidence": null,
+        "rationale": null
+      }
+    },
+    {
+      "pair_id": "D35PAIR-b5e6ac2601ce",
+      "page_type": "specialty",
+      "page_a": {
+        "evidence_id": "PASPAGE-CAND-ACCOUNT-REC-18-e0b3aa7cf0db",
+        "url": "https://trustcontabilidade.com.br/contabilidade-para-dentistas-em-recife-pe/",
+        "text_sha256": "4115beaec86d1b569ff5b8701041e132e72bbdca65103e6d4f200b4449a71283",
+        "review_excerpt": "dentistas 8211 trust contabilidade home especialidades dentistas medicos veterinarios servicos consultoria terceirizacao societario treinamento bpo financeiro sobre blog contato home especialidades dentistas medicos veterinarios servicos consultoria terceirizacao societario treinamento bpo financeiro sobre blog contato facebook instagram linkedin youtube dentistas contabilidade para dentistas em recife pe nos sabemos que o dia a dia de um dentista e muito complicado voce precisa atender bem os seus clientes e isso envolve conhecer a necessidade de cada um e encontrar as melhores alternativas para seus problemas preencha o formulario que um especialista entrara em contato qual a melhor forma de entrarmos em contato e mail ligacao whatsapp li e concordo com a politica de privacidade enviar alem disso precisa encontrar no mercado materiais que tenham boa durabilidade apresentem um resultado final atraente e com um baixo custo permitindo que seu preco seja competitivo porem hoje voce tem a oportunidade de facilitar a gestao da sua empresa e nos vamos te explicar como isso sera possivel preciso entender melhor como uma contabilidade para dentista em pernambuco auxilia na administracao da minha clinica contador o profissional que vai te ajudar no sucesso da sua gestao nesse contexto a sua contabilidade deve ser uma grande aliada e parceira na conducao dos seus negocios isso porque o seu trabalho esta diretamente relacionado a entender a posicao do seu"
+      },
+      "page_b": {
+        "evidence_id": "PASPAGE-CAND-ACCOUNT-REC-18-6bb7229bb570",
+        "url": "https://trustcontabilidade.com.br/contabilidade-para-medicos-em-recife-pe/",
+        "text_sha256": "bf158ab1c695bc68d515b43fae266fbb035cf6e6009f70c3014993635e2d54e3",
+        "review_excerpt": "medicos 8211 trust contabilidade home especialidades dentistas medicos veterinarios servicos consultoria terceirizacao societario treinamento bpo financeiro sobre blog contato home especialidades dentistas medicos veterinarios servicos consultoria terceirizacao societario treinamento bpo financeiro sobre blog contato facebook instagram linkedin youtube medicos contabilidade para medicos em recife pe a gente sabe que trabalhar na area de saude e um grande desafio e necessario ter entendimento profundo sobre aspectos que envolvem o corpo humano como fisiologia anatomia bioquimica conhecimento sobre farmacologia alem de ampla compreensao sobre os diferentes tipos de patogenos e atividades irregulares do nosso organismo que possam resultar em doencas isso tudo para que voce alcance diagnosticos cada vez mais precisos e de acordo com as necessidades dos seus pacientes preencha o formulario que um especialista entrara em contato qual a melhor forma de entrarmos em contato e mail ligacao whatsapp li e concordo com a politica de privacidade enviar nos tambem sabemos que em seu dia a dia voce que e medico precisa lidar com muita burocracia principalmente quando falamos em gestao de clinica ou hospital ja que existem varias demandas com as quais voce precisa se preocupar como as relativas ao setor pessoal fiscal contabil e paralegal dessa forma para que sua empresa tenha sucesso e sempre importante contar com o apoio de um contador falar com um especialista como"
+      },
+      "partition": "development",
+      "candidate_id_hidden": true,
+      "organization_may_be_visible_in_url_or_text": true,
+      "algorithm_features_hidden": true,
+      "review": {
+        "page_type_valid": null,
+        "label": null,
+        "confidence": null,
+        "rationale": null
+      }
+    },
+    {
+      "pair_id": "D35PAIR-da3fa00cc611",
+      "page_type": "specialty",
+      "page_a": {
+        "evidence_id": "PASPAGE-CAND-ACCOUNT-REC-18-6bb7229bb570",
+        "url": "https://trustcontabilidade.com.br/contabilidade-para-medicos-em-recife-pe/",
+        "text_sha256": "bf158ab1c695bc68d515b43fae266fbb035cf6e6009f70c3014993635e2d54e3",
+        "review_excerpt": "medicos 8211 trust contabilidade home especialidades dentistas medicos veterinarios servicos consultoria terceirizacao societario treinamento bpo financeiro sobre blog contato home especialidades dentistas medicos veterinarios servicos consultoria terceirizacao societario treinamento bpo financeiro sobre blog contato facebook instagram linkedin youtube medicos contabilidade para medicos em recife pe a gente sabe que trabalhar na area de saude e um grande desafio e necessario ter entendimento profundo sobre aspectos que envolvem o corpo humano como fisiologia anatomia bioquimica conhecimento sobre farmacologia alem de ampla compreensao sobre os diferentes tipos de patogenos e atividades irregulares do nosso organismo que possam resultar em doencas isso tudo para que voce alcance diagnosticos cada vez mais precisos e de acordo com as necessidades dos seus pacientes preencha o formulario que um especialista entrara em contato qual a melhor forma de entrarmos em contato e mail ligacao whatsapp li e concordo com a politica de privacidade enviar nos tambem sabemos que em seu dia a dia voce que e medico precisa lidar com muita burocracia principalmente quando falamos em gestao de clinica ou hospital ja que existem varias demandas com as quais voce precisa se preocupar como as relativas ao setor pessoal fiscal contabil e paralegal dessa forma para que sua empresa tenha sucesso e sempre importante contar com o apoio de um contador falar com um especialista como"
+      },
+      "page_b": {
+        "evidence_id": "PASPAGE-CAND-ACCOUNT-REC-18-f4f2a160735c",
+        "url": "https://trustcontabilidade.com.br/contabilidade-para-veterinarios-em-recife-pe/",
+        "text_sha256": "df79fdc5fe104bb1a0f62b72372adaa1d1b490ad7c009c9eef14be951aef1fbe",
+        "review_excerpt": "veterinarios 8211 trust contabilidade home especialidades dentistas medicos veterinarios servicos consultoria terceirizacao societario treinamento bpo financeiro sobre blog contato home especialidades dentistas medicos veterinarios servicos consultoria terceirizacao societario treinamento bpo financeiro sobre blog contato facebook instagram linkedin youtube veterinarios contabilidade para veterinarios em recife pe hoje nossa sociedade esta entendendo cada vez mais a importancia dos animais para o equilibrio ambiental do nosso planeta nesse contexto existe um profissional que esta sendo requisitado cada vez mais e vem ganhando valor e espaco em nossa sociedade o veterinario por conta disso vemos um surgimento cada vez maior do numero de clinicas e profissionais que se especializam nessa area preencha o formulario que um especialista entrara em contato qual a melhor forma de entrarmos em contato e mail ligacao whatsapp li e concordo com a politica de privacidade enviar mas como voce ja deve ter percebido a concorrencia tambem aumenta e fica cada vez mais dificil de se manter nesse setor porem voce sabia que o trabalho de uma contabilidade para veterinarios em pernambuco facilita a gestao do seu negocio e pode te ajudar a manter sua empresa mais competitiva nesse mercado entrar em contato entenda como uma contabilidade auxilia veterinarios a terem sucesso na administracao de seus negocios talvez voce que busca uma contabilidade para veterinarios em pernambuco nao saiba que"
+      },
+      "partition": "development",
+      "candidate_id_hidden": true,
+      "organization_may_be_visible_in_url_or_text": true,
+      "algorithm_features_hidden": true,
+      "review": {
+        "page_type_valid": null,
+        "label": null,
+        "confidence": null,
+        "rationale": null
+      }
+    },
+    {
+      "pair_id": "D35PAIR-e69a312b65e8",
+      "page_type": "specialty",
+      "page_a": {
+        "evidence_id": "PASPAGE-CAND-LEGAL-INT-03-dad4161a40c0",
+        "url": "https://www.cliffordchance.com/expertise.html",
+        "text_sha256": "0553899b320a42a26c65f3a0ccee8de20dbc4e776c1a1a5a5dc6f8efc3e56b46",
+        "review_excerpt": "expertise experience search keywords skip to main content people places search for a lawyer search people x22 data thistitle please use a valid word splecial characters are not allowed except apostrophe and hyphen placeholder enter name submit search regions africa americas asia pacific europe middle east turkiye visit this section offices abu dhabi amsterdam barcelona beijing brussels bucharest casablanca dubai dusseldorf frankfurt hong kong houston istanbul london luxembourg madrid milan munich newcastle new york paris perth prague riyadh rome sao paulo shanghai singapore sydney tokyo warsaw washington visit this section visit this section expertise advising on the issues that are critical to our clients clients sectors banks consumer goods retail energy resources entertainment sports financial services healthcare life sciences industrials transport and mobility infrastructure insurance private equity real estate technology media telecommunications visit this section services antitrust capital markets corporate data centres ai compute infrastructure energy transition finance funds investment management intellectual property litigation dispute resolution real estate sustainability esg tax pensions employment incentives tech group visit this section visit this section insights sharing our knowledge and expertise resources apps blogs briefings events hubs and toolkits podcasts premium services visit this section blogs antitrust fdi arbitration insights construction esg and b hr group litigation healthcare life sciences innovation insurance regtalk rifc responsible business talking tech visit this section thought leadership"
+      },
+      "page_b": {
+        "evidence_id": "PASPAGE-CAND-LEGAL-INT-03-deb17c202e50",
+        "url": "https://www.cliffordchance.com/expertise/sectors/consumer_goods_and_retail.html",
+        "text_sha256": "7aca40d882c503227197c0f91020d480017b9bc956b1b6d92d8eaa278570fdfb",
+        "review_excerpt": "consumer goods retail search keywords skip to main content people places search for a lawyer search people x22 data thistitle please use a valid word splecial characters are not allowed except apostrophe and hyphen placeholder enter name submit search regions africa americas asia pacific europe middle east turkiye visit this section offices abu dhabi amsterdam barcelona beijing brussels bucharest casablanca dubai dusseldorf frankfurt hong kong houston istanbul london luxembourg madrid milan munich newcastle new york paris perth prague riyadh rome sao paulo shanghai singapore sydney tokyo warsaw washington visit this section visit this section expertise advising on the issues that are critical to our clients clients sectors banks consumer goods retail energy resources entertainment sports financial services healthcare life sciences industrials transport and mobility infrastructure insurance private equity real estate technology media telecommunications visit this section services antitrust capital markets corporate data centres ai compute infrastructure energy transition finance funds investment management intellectual property litigation dispute resolution real estate sustainability esg tax pensions employment incentives tech group visit this section visit this section insights sharing our knowledge and expertise resources apps blogs briefings events hubs and toolkits podcasts premium services visit this section blogs antitrust fdi arbitration insights construction esg and b hr group litigation healthcare life sciences innovation insurance regtalk rifc responsible business talking tech visit this section thought"
+      },
+      "partition": "development",
+      "candidate_id_hidden": true,
+      "organization_may_be_visible_in_url_or_text": true,
+      "algorithm_features_hidden": true,
+      "review": {
+        "page_type_valid": null,
+        "label": null,
+        "confidence": null,
+        "rationale": null
+      }
+    },
+    {
+      "pair_id": "D35PAIR-e82eb3de2fc1",
+      "page_type": "specialty",
+      "page_a": {
+        "evidence_id": "PASPAGE-CAND-LEGAL-INT-03-dad4161a40c0",
+        "url": "https://www.cliffordchance.com/expertise.html",
+        "text_sha256": "0553899b320a42a26c65f3a0ccee8de20dbc4e776c1a1a5a5dc6f8efc3e56b46",
+        "review_excerpt": "expertise experience search keywords skip to main content people places search for a lawyer search people x22 data thistitle please use a valid word splecial characters are not allowed except apostrophe and hyphen placeholder enter name submit search regions africa americas asia pacific europe middle east turkiye visit this section offices abu dhabi amsterdam barcelona beijing brussels bucharest casablanca dubai dusseldorf frankfurt hong kong houston istanbul london luxembourg madrid milan munich newcastle new york paris perth prague riyadh rome sao paulo shanghai singapore sydney tokyo warsaw washington visit this section visit this section expertise advising on the issues that are critical to our clients clients sectors banks consumer goods retail energy resources entertainment sports financial services healthcare life sciences industrials transport and mobility infrastructure insurance private equity real estate technology media telecommunications visit this section services antitrust capital markets corporate data centres ai compute infrastructure energy transition finance funds investment management intellectual property litigation dispute resolution real estate sustainability esg tax pensions employment incentives tech group visit this section visit this section insights sharing our knowledge and expertise resources apps blogs briefings events hubs and toolkits podcasts premium services visit this section blogs antitrust fdi arbitration insights construction esg and b hr group litigation healthcare life sciences innovation insurance regtalk rifc responsible business talking tech visit this section thought leadership"
+      },
+      "page_b": {
+        "evidence_id": "PASPAGE-CAND-LEGAL-INT-03-2ec8d13e5671",
+        "url": "https://www.cliffordchance.com/expertise/sectors.html",
+        "text_sha256": "ddcee2b3ed81c93cd43e0ee25660484a242da5d89eacd92030c6062fe2987f7c",
+        "review_excerpt": "clients sectors search keywords skip to main content people places search for a lawyer search people x22 data thistitle please use a valid word splecial characters are not allowed except apostrophe and hyphen placeholder enter name submit search regions africa americas asia pacific europe middle east turkiye visit this section offices abu dhabi amsterdam barcelona beijing brussels bucharest casablanca dubai dusseldorf frankfurt hong kong houston istanbul london luxembourg madrid milan munich newcastle new york paris perth prague riyadh rome sao paulo shanghai singapore sydney tokyo warsaw washington visit this section visit this section expertise advising on the issues that are critical to our clients clients sectors banks consumer goods retail energy resources entertainment sports financial services healthcare life sciences industrials transport and mobility infrastructure insurance private equity real estate technology media telecommunications visit this section services antitrust capital markets corporate data centres ai compute infrastructure energy transition finance funds investment management intellectual property litigation dispute resolution real estate sustainability esg tax pensions employment incentives tech group visit this section visit this section insights sharing our knowledge and expertise resources apps blogs briefings events hubs and toolkits podcasts premium services visit this section blogs antitrust fdi arbitration insights construction esg and b hr group litigation healthcare life sciences innovation insurance regtalk rifc responsible business talking tech visit this section thought leadership"
+      },
+      "partition": "development",
+      "candidate_id_hidden": true,
+      "organization_may_be_visible_in_url_or_text": true,
+      "algorithm_features_hidden": true,
+      "review": {
+        "page_type_valid": null,
+        "label": null,
+        "confidence": null,
+        "rationale": null
+      }
+    },
+    {
+      "pair_id": "D35PAIR-f8cf757458a8",
+      "page_type": "specialty",
+      "page_a": {
+        "evidence_id": "PASPAGE-CAND-LEGAL-INT-03-dad4161a40c0",
+        "url": "https://www.cliffordchance.com/expertise.html",
+        "text_sha256": "0553899b320a42a26c65f3a0ccee8de20dbc4e776c1a1a5a5dc6f8efc3e56b46",
+        "review_excerpt": "expertise experience search keywords skip to main content people places search for a lawyer search people x22 data thistitle please use a valid word splecial characters are not allowed except apostrophe and hyphen placeholder enter name submit search regions africa americas asia pacific europe middle east turkiye visit this section offices abu dhabi amsterdam barcelona beijing brussels bucharest casablanca dubai dusseldorf frankfurt hong kong houston istanbul london luxembourg madrid milan munich newcastle new york paris perth prague riyadh rome sao paulo shanghai singapore sydney tokyo warsaw washington visit this section visit this section expertise advising on the issues that are critical to our clients clients sectors banks consumer goods retail energy resources entertainment sports financial services healthcare life sciences industrials transport and mobility infrastructure insurance private equity real estate technology media telecommunications visit this section services antitrust capital markets corporate data centres ai compute infrastructure energy transition finance funds investment management intellectual property litigation dispute resolution real estate sustainability esg tax pensions employment incentives tech group visit this section visit this section insights sharing our knowledge and expertise resources apps blogs briefings events hubs and toolkits podcasts premium services visit this section blogs antitrust fdi arbitration insights construction esg and b hr group litigation healthcare life sciences innovation insurance regtalk rifc responsible business talking tech visit this section thought leadership"
+      },
+      "page_b": {
+        "evidence_id": "PASPAGE-CAND-LEGAL-INT-03-3c531c380656",
+        "url": "https://www.cliffordchance.com/expertise/sectors/banks.html",
+        "text_sha256": "ec46320e4e13ae0a6632feadc9139539a8c3b757aa8141c86b4b741250b43289",
+        "review_excerpt": "banks search keywords skip to main content people places search for a lawyer search people x22 data thistitle please use a valid word splecial characters are not allowed except apostrophe and hyphen placeholder enter name submit search regions africa americas asia pacific europe middle east turkiye visit this section offices abu dhabi amsterdam barcelona beijing brussels bucharest casablanca dubai dusseldorf frankfurt hong kong houston istanbul london luxembourg madrid milan munich newcastle new york paris perth prague riyadh rome sao paulo shanghai singapore sydney tokyo warsaw washington visit this section visit this section expertise advising on the issues that are critical to our clients clients sectors banks consumer goods retail energy resources entertainment sports financial services healthcare life sciences industrials transport and mobility infrastructure insurance private equity real estate technology media telecommunications visit this section services antitrust capital markets corporate data centres ai compute infrastructure energy transition finance funds investment management intellectual property litigation dispute resolution real estate sustainability esg tax pensions employment incentives tech group visit this section visit this section insights sharing our knowledge and expertise resources apps blogs briefings events hubs and toolkits podcasts premium services visit this section blogs antitrust fdi arbitration insights construction esg and b hr group litigation healthcare life sciences innovation insurance regtalk rifc responsible business talking tech visit this section thought leadership cop30"
+      },
+      "partition": "development",
+      "candidate_id_hidden": true,
+      "organization_may_be_visible_in_url_or_text": true,
+      "algorithm_features_hidden": true,
+      "review": {
+        "page_type_valid": null,
+        "label": null,
+        "confidence": null,
+        "rationale": null
+      }
+    }
+  ]
+}

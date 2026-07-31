@@ -1,0 +1,63 @@
+{
+  "method": "d35-v0.4-trust-directed-http-confirmation",
+  "executed_at": "2026-07-31T14:21:01-03:00",
+  "executor": "scientist/account-directed-discovery",
+  "candidate_id": "CAND-ACCOUNT-REC-18",
+  "organization": "Trust Contabilidade",
+  "official_domain": "trustcontabilidade.com.br",
+  "request_method": "HEAD with redirects enabled",
+  "command_shape": "curl.exe -L -I --max-time 20 <url>",
+  "pages": [
+    {
+      "requested_url": "https://trustcontabilidade.com.br/ipi-conheca-os-planos-do-governo-para-esse-tributo-voce-nao-vai-acreditar/",
+      "final_url": "https://trustcontabilidade.com.br/ipi-conheca-os-planos-do-governo-para-esse-tributo-voce-nao-vai-acreditar/",
+      "title": "IPI: conheça os planos do governo para esse tributo. Você não vai acreditar!",
+      "page_type": "editorial",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirects_observed": 0,
+      "access": "public_http_verified",
+      "decision": "include",
+      "provenance": "official first-party URL discovered through Trust internal editorial links; direct HTTP confirmation"
+    },
+    {
+      "requested_url": "https://trustcontabilidade.com.br/falencia-pode-ajudar-voce-a-reestruturar-sua-empresa-entenda-como-funciona/",
+      "final_url": "https://trustcontabilidade.com.br/falencia-pode-ajudar-voce-a-reestruturar-sua-empresa-entenda-como-funciona/",
+      "title": "Falência pode ajudar você a reestruturar sua empresa. Entenda como funciona",
+      "page_type": "editorial",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirects_observed": 0,
+      "access": "public_http_verified",
+      "decision": "include",
+      "provenance": "official first-party URL discovered through Trust internal editorial links; direct HTTP confirmation"
+    },
+    {
+      "requested_url": "https://trustcontabilidade.com.br/estrategias-de-marketing-que-voce-precisa-usar-para-otimizar-as-vendas-em-seu-negocio/",
+      "final_url": "https://trustcontabilidade.com.br/estrategias-de-marketing-que-voce-precisa-usar-para-otimizar-as-vendas-em-seu-negocio/",
+      "title": "Estratégias de marketing que você precisa usar para otimizar as vendas em seu negócio",
+      "page_type": "editorial",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "redirects_observed": 0,
+      "access": "public_http_verified",
+      "decision": "include",
+      "provenance": "official first-party URL discovered through Trust internal editorial links; direct HTTP confirmation"
+    }
+  ],
+  "corpus_status": {
+    "previously_content_verified_editorials": 2,
+    "newly_http_confirmed_editorials": 3,
+    "total_verified_first_party_editorials": 5,
+    "minimum_four_reached": true,
+    "additional_discovery_performed": false,
+    "eligible_for_snapshot_proposal": true
+  },
+  "limitations": [
+    "HEAD confirmation establishes current HTTP availability and final URL, not a frozen text capture.",
+    "The browser extraction service returned cache-miss errors for these three pages; body capture and hashing remain required in the snapshot job.",
+    "First-party availability does not establish authorship or external originality.",
+    "No score or similarity label was produced."
+  ],
+  "scoring_authorized": false
+}

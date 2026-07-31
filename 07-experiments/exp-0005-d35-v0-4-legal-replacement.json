@@ -1,0 +1,67 @@
+{
+  "record_id": "EXP-0005-D35-V04-LEGAL-REPLACEMENT",
+  "created_at": "2026-07-31",
+  "executor": "d35_v04_legal_pages",
+  "method": "directed_official-site_web_discovery_v0.4",
+  "replacement": {
+    "candidate_id": "CAND-LEGAL-NAT-01",
+    "organization_name": "Mattos Filho",
+    "official_domain": "mattosfilho.com.br",
+    "replaces_in_proposed_corpus": "CAND-LEGAL-REC-03",
+    "replacement_reason": "JHN has fewer than four equivalent public first-party pages",
+    "page_family": "area_atuacao_practice",
+    "corpus_status": "proposed_complete"
+  },
+  "pages": [
+    {
+      "url": "https://www.mattosfilho.com.br/area-atuacao/contencioso-e-arbitragem/",
+      "title": "Contencioso e Arbitragem",
+      "page_role": "practice_specialty",
+      "official_source": true,
+      "access_status": "accessible_via_web",
+      "proposed_for_inclusion": true
+    },
+    {
+      "url": "https://www.mattosfilho.com.br/area-atuacao/ambiental/",
+      "title": "Direito ambiental e Mudanças climáticas",
+      "page_role": "practice_specialty",
+      "official_source": true,
+      "access_status": "accessible_via_web",
+      "proposed_for_inclusion": true
+    },
+    {
+      "url": "https://www.mattosfilho.com.br/area-atuacao/direito-publico/",
+      "title": "Direito público",
+      "page_role": "practice_specialty",
+      "official_source": true,
+      "access_status": "accessible_via_web",
+      "proposed_for_inclusion": true
+    },
+    {
+      "url": "https://www.mattosfilho.com.br/area-atuacao/tributario/",
+      "title": "Tributário",
+      "page_role": "practice_specialty",
+      "official_source": true,
+      "access_status": "accessible_via_web",
+      "proposed_for_inclusion": true
+    }
+  ],
+  "provenance": {
+    "official_index_url": "https://www.mattosfilho.com.br/area-atuacao/",
+    "discovery_mode": "bounded search and direct opening of first-party pages",
+    "external_pages_used": false,
+    "forms_or_contact_used": false,
+    "text_capture_performed": false
+  },
+  "limitations": [
+    "Pages include recurring navigation, professional profiles, publications, awards and subscription blocks; future capture must isolate the practice body deterministically.",
+    "Accessibility observed through the web retrieval layer does not establish future availability.",
+    "This record validates discovery and page-family equivalence only; it does not validate authorship, originality or scoring fitness."
+  ],
+  "gate": {
+    "status": "replacement_proposed",
+    "next_action": "auditor confirms eligibility and organization-level split before capture",
+    "labels_assigned": false,
+    "d35_scoring_authorized": false
+  }
+}

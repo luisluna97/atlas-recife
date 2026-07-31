@@ -1,0 +1,26 @@
+{
+  "split_version": "d35-v0.4.2-org-split",
+  "created_at": "2026-07-31",
+  "supersedes": "d35-v0.4.1-org-split",
+  "replacement_reason": "HMA, RS and JHN failed the pre-collection minimum of four equivalent first-party pages",
+  "replacement_policy": "replace within the same segment using organizations already in the 66-company roster; choose for expected public page depth before D3.5 labeling",
+  "development": [
+    "CAND-ACCOUNT-REC-14",
+    "CAND-ACCOUNT-NAT-01",
+    "CAND-LEGAL-NAT-01",
+    "CAND-LEGAL-REC-17"
+  ],
+  "holdout": [
+    "CAND-ACCOUNT-INT-01",
+    "CAND-ACCOUNT-REC-18",
+    "CAND-LEGAL-NAT-05",
+    "CAND-LEGAL-INT-03"
+  ],
+  "replacements": [
+    {"out":"CAND-ACCOUNT-REC-04","in":"CAND-ACCOUNT-NAT-01","partition":"development"},
+    {"out":"CAND-LEGAL-REC-03","in":"CAND-LEGAL-NAT-01","partition":"development"},
+    {"out":"CAND-ACCOUNT-REC-05","in":"CAND-ACCOUNT-INT-01","partition":"holdout"}
+  ],
+  "status": "candidate_pending_page_depth_validation",
+  "scoring_authorized": false
+}

@@ -1,0 +1,700 @@
+{
+  "gold_version": "d35-v0.4.2-development-gold",
+  "partition": "development",
+  "status": "development_ready_for_gate",
+  "counts": {
+    "total": 49,
+    "repeated_template": 28,
+    "distinct_content": 21,
+    "uncertain": 0
+  },
+  "items": [
+    {
+      "pair_id": "D35V04-00d7806ba68b",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-arquitetos-e-designers-de-interiores/",
+        "text_sha256": "c83fe9175084ad1087706dbb49f1bad8768b2ac2d371d174fdf0d18f719e42b3"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-supermercados/",
+        "text_sha256": "5680b646771f3328df75525d4e69a831be2d9320ff7b234981f633536e7208f0"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-05194a85a6d1",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-agencia-de-marketing-digital/",
+        "text_sha256": "9ab73d6a986613907168a1b161641777d0a00bc5f2bf3f915ea4df8039da972c"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-supermercados/",
+        "text_sha256": "5680b646771f3328df75525d4e69a831be2d9320ff7b234981f633536e7208f0"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-091233a75e2f",
+      "page_a": {
+        "url": "https://serur.com.br/segmentos/agencias-reguladoras",
+        "text_sha256": "d09198e678afb1921d19495e175abd014403bf2421e9239677a304541eb9af6f"
+      },
+      "page_b": {
+        "url": "https://serur.com.br/segmentos/bancos",
+        "text_sha256": "70f66780875a6e88a2024c42367f393f2d5c2462e54e34cfe5a0585a85049d7f"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-124a2820e0f9",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-agencia-de-marketing-digital/",
+        "text_sha256": "9ab73d6a986613907168a1b161641777d0a00bc5f2bf3f915ea4df8039da972c"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-youtubers-e-infoprodutores/",
+        "text_sha256": "3039ced62cf48555f4a64318e890a23d98c05a5d36c61427145fb77c2c6f7d68"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-13ea87a35477",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-arquitetos-e-designers-de-interiores/",
+        "text_sha256": "c83fe9175084ad1087706dbb49f1bad8768b2ac2d371d174fdf0d18f719e42b3"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-e-commerce/",
+        "text_sha256": "bf6898c611dd755bda114910860ed5aacdf32e64b19a02f2b397ebe099841c1b"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-16a4fc5a7ba0",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-construcao-civil/",
+        "text_sha256": "566391fed301ea5ae569b5b471657eed8fb1105a5b6e8c58824092c1fc1796e2"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-supermercados/",
+        "text_sha256": "5680b646771f3328df75525d4e69a831be2d9320ff7b234981f633536e7208f0"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-24479e88b057",
+      "page_a": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/contabilidade-para-pequenas-empresas/",
+        "text_sha256": "78fefbc8a7486de95e8c4c360dfc5005f97be97d1fadfa564d62a3d27a73d201"
+      },
+      "page_b": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/escrituracao-contabil/",
+        "text_sha256": "7e82a9548051a330d8f1ed0f752c042bf79dfbd895dc979661ea17c054a1bdb1"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-2a299b19bbd7",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-supermercados/",
+        "text_sha256": "5680b646771f3328df75525d4e69a831be2d9320ff7b234981f633536e7208f0"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-youtubers-e-infoprodutores/",
+        "text_sha256": "3039ced62cf48555f4a64318e890a23d98c05a5d36c61427145fb77c2c6f7d68"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-355480aae8be",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-hoteis-e-pousadas/",
+        "text_sha256": "6efb21d1560518b7de47da915566293cfa80623b51f30af0bfaf558cc0f00ce2"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-supermercados/",
+        "text_sha256": "5680b646771f3328df75525d4e69a831be2d9320ff7b234981f633536e7208f0"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-36b3257006a6",
+      "page_a": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/contabilidade-empresarial/",
+        "text_sha256": "451121f6108ef9dc24f98db7378ff889c22b499ebb82f0c01567503f753b377c"
+      },
+      "page_b": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/contabilidade-para-pequenas-empresas/",
+        "text_sha256": "78fefbc8a7486de95e8c4c360dfc5005f97be97d1fadfa564d62a3d27a73d201"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-40b3d23914ff",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-medicos-e-profissionais-da-saude/",
+        "text_sha256": "0c8c575f8993553d1ed017559d21b3c7f296fc583899393107e54d47cd57c7fe"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-supermercados/",
+        "text_sha256": "5680b646771f3328df75525d4e69a831be2d9320ff7b234981f633536e7208f0"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-4179e200eef1",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-e-commerce/",
+        "text_sha256": "bf6898c611dd755bda114910860ed5aacdf32e64b19a02f2b397ebe099841c1b"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-hoteis-e-pousadas/",
+        "text_sha256": "6efb21d1560518b7de47da915566293cfa80623b51f30af0bfaf558cc0f00ce2"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-472a5ed1dd9b",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-arquitetos-e-designers-de-interiores/",
+        "text_sha256": "c83fe9175084ad1087706dbb49f1bad8768b2ac2d371d174fdf0d18f719e42b3"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-youtubers-e-infoprodutores/",
+        "text_sha256": "3039ced62cf48555f4a64318e890a23d98c05a5d36c61427145fb77c2c6f7d68"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-47c812ab02ff",
+      "page_a": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/assessoria-contabil/",
+        "text_sha256": "ea790047befa9cb352ed917fb0f3f693e21eca6cfcad4d346b6d88ade49718b2"
+      },
+      "page_b": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/servicos-prestados-pelo-escritorio-de-contabilidade/",
+        "text_sha256": "6881969563e957a51f5d63b6a9631dadb06abf87a8a318d340a96eeee6f23a5a"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-48a813001cf8",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-e-commerce/",
+        "text_sha256": "bf6898c611dd755bda114910860ed5aacdf32e64b19a02f2b397ebe099841c1b"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-medicos-e-profissionais-da-saude/",
+        "text_sha256": "0c8c575f8993553d1ed017559d21b3c7f296fc583899393107e54d47cd57c7fe"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-49c62c05901b",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-agencia-de-marketing-digital/",
+        "text_sha256": "9ab73d6a986613907168a1b161641777d0a00bc5f2bf3f915ea4df8039da972c"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-e-commerce/",
+        "text_sha256": "bf6898c611dd755bda114910860ed5aacdf32e64b19a02f2b397ebe099841c1b"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-4c25132cb423",
+      "page_a": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/contabilidade-para-pequenas-empresas/",
+        "text_sha256": "78fefbc8a7486de95e8c4c360dfc5005f97be97d1fadfa564d62a3d27a73d201"
+      },
+      "page_b": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/objetivo-da-contabilidade/",
+        "text_sha256": "e9129c8dde2757d1e1c04c2fd691b0e9a085b76c9e96b13637f8c6084b107f3d"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-4c29d5e8b389",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-e-commerce/",
+        "text_sha256": "bf6898c611dd755bda114910860ed5aacdf32e64b19a02f2b397ebe099841c1b"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-supermercados/",
+        "text_sha256": "5680b646771f3328df75525d4e69a831be2d9320ff7b234981f633536e7208f0"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-4e6765db4b42",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-arquitetos-e-designers-de-interiores/",
+        "text_sha256": "c83fe9175084ad1087706dbb49f1bad8768b2ac2d371d174fdf0d18f719e42b3"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-construcao-civil/",
+        "text_sha256": "566391fed301ea5ae569b5b471657eed8fb1105a5b6e8c58824092c1fc1796e2"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-57ea06e7bebf",
+      "page_a": {
+        "url": "https://serur.com.br/segmentos/bancos",
+        "text_sha256": "70f66780875a6e88a2024c42367f393f2d5c2462e54e34cfe5a0585a85049d7f"
+      },
+      "page_b": {
+        "url": "https://serur.com.br/segmentos/construcao-civil",
+        "text_sha256": "66c47a46d57525bd4d5127fc686fb0d8b8bd785517f3afc9ecce01df787af47d"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-58cb12a307cf",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-arquitetos-e-designers-de-interiores/",
+        "text_sha256": "c83fe9175084ad1087706dbb49f1bad8768b2ac2d371d174fdf0d18f719e42b3"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-hoteis-e-pousadas/",
+        "text_sha256": "6efb21d1560518b7de47da915566293cfa80623b51f30af0bfaf558cc0f00ce2"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-5949209c5661",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-agencia-de-marketing-digital/",
+        "text_sha256": "9ab73d6a986613907168a1b161641777d0a00bc5f2bf3f915ea4df8039da972c"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-hoteis-e-pousadas/",
+        "text_sha256": "6efb21d1560518b7de47da915566293cfa80623b51f30af0bfaf558cc0f00ce2"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-5bf9d1061b88",
+      "page_a": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/contabilidade-empresarial/",
+        "text_sha256": "451121f6108ef9dc24f98db7378ff889c22b499ebb82f0c01567503f753b377c"
+      },
+      "page_b": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/escrituracao-contabil/",
+        "text_sha256": "7e82a9548051a330d8f1ed0f752c042bf79dfbd895dc979661ea17c054a1bdb1"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-5c52b4dc6c85",
+      "page_a": {
+        "url": "https://serur.com.br/segmentos/construcao-civil",
+        "text_sha256": "66c47a46d57525bd4d5127fc686fb0d8b8bd785517f3afc9ecce01df787af47d"
+      },
+      "page_b": {
+        "url": "https://serur.com.br/segmentos/segmento-servicos-financeiros",
+        "text_sha256": "adc4bf61de9c486dd5e2bf309b7f7529425e59554a60374f9613390479bc6cdd"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-5f5345d86461",
+      "page_a": {
+        "url": "https://serur.com.br/segmentos/agencias-reguladoras",
+        "text_sha256": "d09198e678afb1921d19495e175abd014403bf2421e9239677a304541eb9af6f"
+      },
+      "page_b": {
+        "url": "https://serur.com.br/segmentos/segmento-servicos-financeiros",
+        "text_sha256": "adc4bf61de9c486dd5e2bf309b7f7529425e59554a60374f9613390479bc6cdd"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-662c9d28e5ac",
+      "page_a": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/escrituracao-contabil/",
+        "text_sha256": "7e82a9548051a330d8f1ed0f752c042bf79dfbd895dc979661ea17c054a1bdb1"
+      },
+      "page_b": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/servicos-prestados-pelo-escritorio-de-contabilidade/",
+        "text_sha256": "6881969563e957a51f5d63b6a9631dadb06abf87a8a318d340a96eeee6f23a5a"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-663b6c0db69f",
+      "page_a": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/contabilidade-para-pequenas-empresas/",
+        "text_sha256": "78fefbc8a7486de95e8c4c360dfc5005f97be97d1fadfa564d62a3d27a73d201"
+      },
+      "page_b": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/servicos-prestados-pelo-escritorio-de-contabilidade/",
+        "text_sha256": "6881969563e957a51f5d63b6a9631dadb06abf87a8a318d340a96eeee6f23a5a"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-6c0cc0a2b59a",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-arquitetos-e-designers-de-interiores/",
+        "text_sha256": "c83fe9175084ad1087706dbb49f1bad8768b2ac2d371d174fdf0d18f719e42b3"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-medicos-e-profissionais-da-saude/",
+        "text_sha256": "0c8c575f8993553d1ed017559d21b3c7f296fc583899393107e54d47cd57c7fe"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-6d4e31d9301f",
+      "page_a": {
+        "url": "https://serur.com.br/segmentos/bancos",
+        "text_sha256": "70f66780875a6e88a2024c42367f393f2d5c2462e54e34cfe5a0585a85049d7f"
+      },
+      "page_b": {
+        "url": "https://serur.com.br/segmentos/segmento-servicos-financeiros",
+        "text_sha256": "adc4bf61de9c486dd5e2bf309b7f7529425e59554a60374f9613390479bc6cdd"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "third_party_adjudication"
+    },
+    {
+      "pair_id": "D35V04-7638be6fa8fd",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-construcao-civil/",
+        "text_sha256": "566391fed301ea5ae569b5b471657eed8fb1105a5b6e8c58824092c1fc1796e2"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-hoteis-e-pousadas/",
+        "text_sha256": "6efb21d1560518b7de47da915566293cfa80623b51f30af0bfaf558cc0f00ce2"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-85dbc897261e",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-agencia-de-marketing-digital/",
+        "text_sha256": "9ab73d6a986613907168a1b161641777d0a00bc5f2bf3f915ea4df8039da972c"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-construcao-civil/",
+        "text_sha256": "566391fed301ea5ae569b5b471657eed8fb1105a5b6e8c58824092c1fc1796e2"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-97ecbb9cf1b7",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-construcao-civil/",
+        "text_sha256": "566391fed301ea5ae569b5b471657eed8fb1105a5b6e8c58824092c1fc1796e2"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-e-commerce/",
+        "text_sha256": "bf6898c611dd755bda114910860ed5aacdf32e64b19a02f2b397ebe099841c1b"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-980c6f4f6db1",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-construcao-civil/",
+        "text_sha256": "566391fed301ea5ae569b5b471657eed8fb1105a5b6e8c58824092c1fc1796e2"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-youtubers-e-infoprodutores/",
+        "text_sha256": "3039ced62cf48555f4a64318e890a23d98c05a5d36c61427145fb77c2c6f7d68"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-9fea3a8d4a27",
+      "page_a": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/assessoria-contabil/",
+        "text_sha256": "ea790047befa9cb352ed917fb0f3f693e21eca6cfcad4d346b6d88ade49718b2"
+      },
+      "page_b": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/objetivo-da-contabilidade/",
+        "text_sha256": "e9129c8dde2757d1e1c04c2fd691b0e9a085b76c9e96b13637f8c6084b107f3d"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-a43d7a4e2a50",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-e-commerce/",
+        "text_sha256": "bf6898c611dd755bda114910860ed5aacdf32e64b19a02f2b397ebe099841c1b"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-youtubers-e-infoprodutores/",
+        "text_sha256": "3039ced62cf48555f4a64318e890a23d98c05a5d36c61427145fb77c2c6f7d68"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-a7a287c8a115",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-hoteis-e-pousadas/",
+        "text_sha256": "6efb21d1560518b7de47da915566293cfa80623b51f30af0bfaf558cc0f00ce2"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-medicos-e-profissionais-da-saude/",
+        "text_sha256": "0c8c575f8993553d1ed017559d21b3c7f296fc583899393107e54d47cd57c7fe"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-a7c513c633bb",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-hoteis-e-pousadas/",
+        "text_sha256": "6efb21d1560518b7de47da915566293cfa80623b51f30af0bfaf558cc0f00ce2"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-youtubers-e-infoprodutores/",
+        "text_sha256": "3039ced62cf48555f4a64318e890a23d98c05a5d36c61427145fb77c2c6f7d68"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-afc4a8cd4f69",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-agencia-de-marketing-digital/",
+        "text_sha256": "9ab73d6a986613907168a1b161641777d0a00bc5f2bf3f915ea4df8039da972c"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-arquitetos-e-designers-de-interiores/",
+        "text_sha256": "c83fe9175084ad1087706dbb49f1bad8768b2ac2d371d174fdf0d18f719e42b3"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-b78511d07f5e",
+      "page_a": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/objetivo-da-contabilidade/",
+        "text_sha256": "e9129c8dde2757d1e1c04c2fd691b0e9a085b76c9e96b13637f8c6084b107f3d"
+      },
+      "page_b": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/servicos-prestados-pelo-escritorio-de-contabilidade/",
+        "text_sha256": "6881969563e957a51f5d63b6a9631dadb06abf87a8a318d340a96eeee6f23a5a"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-bcc2725417e2",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-construcao-civil/",
+        "text_sha256": "566391fed301ea5ae569b5b471657eed8fb1105a5b6e8c58824092c1fc1796e2"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-medicos-e-profissionais-da-saude/",
+        "text_sha256": "0c8c575f8993553d1ed017559d21b3c7f296fc583899393107e54d47cd57c7fe"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-c2751f575334",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-agencia-de-marketing-digital/",
+        "text_sha256": "9ab73d6a986613907168a1b161641777d0a00bc5f2bf3f915ea4df8039da972c"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-medicos-e-profissionais-da-saude/",
+        "text_sha256": "0c8c575f8993553d1ed017559d21b3c7f296fc583899393107e54d47cd57c7fe"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-d3868ac98371",
+      "page_a": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/assessoria-contabil/",
+        "text_sha256": "ea790047befa9cb352ed917fb0f3f693e21eca6cfcad4d346b6d88ade49718b2"
+      },
+      "page_b": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/contabilidade-empresarial/",
+        "text_sha256": "451121f6108ef9dc24f98db7378ff889c22b499ebb82f0c01567503f753b377c"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-d9aec7acea47",
+      "page_a": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/assessoria-contabil/",
+        "text_sha256": "ea790047befa9cb352ed917fb0f3f693e21eca6cfcad4d346b6d88ade49718b2"
+      },
+      "page_b": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/contabilidade-para-pequenas-empresas/",
+        "text_sha256": "78fefbc8a7486de95e8c4c360dfc5005f97be97d1fadfa564d62a3d27a73d201"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-df6ed024149f",
+      "page_a": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/contabilidade-empresarial/",
+        "text_sha256": "451121f6108ef9dc24f98db7378ff889c22b499ebb82f0c01567503f753b377c"
+      },
+      "page_b": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/servicos-prestados-pelo-escritorio-de-contabilidade/",
+        "text_sha256": "6881969563e957a51f5d63b6a9631dadb06abf87a8a318d340a96eeee6f23a5a"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-e472fb8f0e27",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-medicos-e-profissionais-da-saude/",
+        "text_sha256": "0c8c575f8993553d1ed017559d21b3c7f296fc583899393107e54d47cd57c7fe"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-youtubers-e-infoprodutores/",
+        "text_sha256": "3039ced62cf48555f4a64318e890a23d98c05a5d36c61427145fb77c2c6f7d68"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-e9dfc28b3786",
+      "page_a": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/escrituracao-contabil/",
+        "text_sha256": "7e82a9548051a330d8f1ed0f752c042bf79dfbd895dc979661ea17c054a1bdb1"
+      },
+      "page_b": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/objetivo-da-contabilidade/",
+        "text_sha256": "e9129c8dde2757d1e1c04c2fd691b0e9a085b76c9e96b13637f8c6084b107f3d"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-f56a72049c46",
+      "page_a": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/contabilidade-empresarial/",
+        "text_sha256": "451121f6108ef9dc24f98db7378ff889c22b499ebb82f0c01567503f753b377c"
+      },
+      "page_b": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/objetivo-da-contabilidade/",
+        "text_sha256": "e9129c8dde2757d1e1c04c2fd691b0e9a085b76c9e96b13637f8c6084b107f3d"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-f5cd3b0bbf73",
+      "page_a": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/assessoria-contabil/",
+        "text_sha256": "ea790047befa9cb352ed917fb0f3f693e21eca6cfcad4d346b6d88ade49718b2"
+      },
+      "page_b": {
+        "url": "https://www.contabilizei.com.br/contabilidade-online/escrituracao-contabil/",
+        "text_sha256": "7e82a9548051a330d8f1ed0f752c042bf79dfbd895dc979661ea17c054a1bdb1"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-f7093c2b77d0",
+      "page_a": {
+        "url": "https://serur.com.br/segmentos/agencias-reguladoras",
+        "text_sha256": "d09198e678afb1921d19495e175abd014403bf2421e9239677a304541eb9af6f"
+      },
+      "page_b": {
+        "url": "https://serur.com.br/segmentos/construcao-civil",
+        "text_sha256": "66c47a46d57525bd4d5127fc686fb0d8b8bd785517f3afc9ecce01df787af47d"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    }
+  ],
+  "scoring_authorized": false
+}

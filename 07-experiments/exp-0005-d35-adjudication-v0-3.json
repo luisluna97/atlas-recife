@@ -1,0 +1,22 @@
+{
+  "method": "independent_fallback_adjudication_from_reviewer_a_and_b_evidence_only",
+  "status": "completed",
+  "failed_predecessor_jobs": 3,
+  "decisions": [
+    {
+      "pair_id": "D35PAIR-3fb07173f6a2",
+      "page_type_valid": "no",
+      "label": "repeated_template",
+      "confidence": 0.97,
+      "rationale": "As páginas têm funções distintas (serviço de assessoria contábil e recrutamento/trabalhe conosco), portanto o tipo não é equivalente. Nos excertos disponíveis, fora o título inicial, repetem-se quase integralmente navegação, catálogo de serviços e contatos, caracterizando template repetido."
+    },
+    {
+      "pair_id": "D35PAIR-e82eb3de2fc1",
+      "page_type_valid": "no",
+      "label": "repeated_template",
+      "confidence": 0.98,
+      "rationale": "Uma página é a visão geral de expertise e a outra é o índice de setores; são níveis e funções editoriais diferentes, não duas especialidades equivalentes. Os excertos são praticamente idênticos, salvo os títulos iniciais, caracterizando template repetido."
+    }
+  ],
+  "scoring_authorized": false
+}

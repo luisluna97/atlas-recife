@@ -1,0 +1,460 @@
+{
+  "rule_version": "d35-rule-v0.4.2-development",
+  "status": "frozen_candidate_pending_audit",
+  "created_at": "2026-07-31T18:04:17.553Z",
+  "feature": "candidate-local boilerplate-cleaned exact 5-word Jaccard",
+  "prediction": "repeated_template when clean_jaccard >= threshold",
+  "selected": {
+    "threshold": 0,
+    "tp": 28,
+    "tn": 0,
+    "fp": 21,
+    "fn": 0,
+    "sensitivity": 1,
+    "specificity": 0,
+    "precision": 0.5714285714285714,
+    "balanced_accuracy": 0.5,
+    "accuracy": 0.5714285714285714
+  },
+  "development_n": 49,
+  "class_counts": {
+    "repeated_template": 28,
+    "distinct_content": 21
+  },
+  "input_allowlist": [
+    "07-experiments/exp-0005-d35-capture-snapshot-v0-4-2.json",
+    "07-experiments/exp-0005-d35-v0-4-development-gold.json",
+    "09-engineering/labs/d35_similarity_v0_2.mjs"
+  ],
+  "input_hashes": {
+    "snapshot": "c8ad1be82caa6fcc9c5875986057b9f8e8a5b5f62477fa0ad7aa4104d8630ee3",
+    "development_gold": "0f9aaa265a943b7a464624dd98b9f4709d1bed8d81a901f69dd0f23362bd5955",
+    "code_v02": "dc59da4fff5db237bef235d567bd4cccab87efc1085cc395714ef953a60043d7"
+  },
+  "holdout_accessed": false,
+  "top_trials": [
+    {
+      "threshold": 0,
+      "tp": 28,
+      "tn": 0,
+      "fp": 21,
+      "fn": 0,
+      "sensitivity": 1,
+      "specificity": 0,
+      "precision": 0.5714285714285714,
+      "balanced_accuracy": 0.5,
+      "accuracy": 0.5714285714285714
+    },
+    {
+      "threshold": 1,
+      "tp": 0,
+      "tn": 21,
+      "fp": 0,
+      "fn": 28,
+      "sensitivity": 0,
+      "specificity": 1,
+      "precision": 0,
+      "balanced_accuracy": 0.5,
+      "accuracy": 0.42857142857142855
+    },
+    {
+      "threshold": 0.15364995385021096,
+      "tp": 0,
+      "tn": 20,
+      "fp": 1,
+      "fn": 28,
+      "sensitivity": 0,
+      "specificity": 0.9523809523809523,
+      "precision": 0,
+      "balanced_accuracy": 0.47619047619047616,
+      "accuracy": 0.40816326530612246
+    },
+    {
+      "threshold": 0.005079391547625664,
+      "tp": 13,
+      "tn": 10,
+      "fp": 11,
+      "fn": 15,
+      "sensitivity": 0.4642857142857143,
+      "specificity": 0.47619047619047616,
+      "precision": 0.5416666666666666,
+      "balanced_accuracy": 0.47023809523809523,
+      "accuracy": 0.46938775510204084
+    },
+    {
+      "threshold": 0.08766115949453551,
+      "tp": 0,
+      "tn": 19,
+      "fp": 2,
+      "fn": 28,
+      "sensitivity": 0,
+      "specificity": 0.9047619047619048,
+      "precision": 0,
+      "balanced_accuracy": 0.4523809523809524,
+      "accuracy": 0.3877551020408163
+    },
+    {
+      "threshold": 0.007940991839296925,
+      "tp": 12,
+      "tn": 10,
+      "fp": 11,
+      "fn": 16,
+      "sensitivity": 0.42857142857142855,
+      "specificity": 0.47619047619047616,
+      "precision": 0.5217391304347826,
+      "balanced_accuracy": 0.45238095238095233,
+      "accuracy": 0.4489795918367347
+    },
+    {
+      "threshold": 0.0026820235722041295,
+      "tp": 13,
+      "tn": 9,
+      "fp": 12,
+      "fn": 15,
+      "sensitivity": 0.4642857142857143,
+      "specificity": 0.42857142857142855,
+      "precision": 0.52,
+      "balanced_accuracy": 0.4464285714285714,
+      "accuracy": 0.4489795918367347
+    },
+    {
+      "threshold": 0.0503840019034862,
+      "tp": 1,
+      "tn": 18,
+      "fp": 3,
+      "fn": 27,
+      "sensitivity": 0.03571428571428571,
+      "specificity": 0.8571428571428571,
+      "precision": 0.25,
+      "balanced_accuracy": 0.4464285714285714,
+      "accuracy": 0.3877551020408163
+    },
+    {
+      "threshold": 0.013843760801935705,
+      "tp": 10,
+      "tn": 11,
+      "fp": 10,
+      "fn": 18,
+      "sensitivity": 0.35714285714285715,
+      "specificity": 0.5238095238095238,
+      "precision": 0.5,
+      "balanced_accuracy": 0.44047619047619047,
+      "accuracy": 0.42857142857142855
+    },
+    {
+      "threshold": 0.008510792409097495,
+      "tp": 11,
+      "tn": 10,
+      "fp": 11,
+      "fn": 17,
+      "sensitivity": 0.39285714285714285,
+      "specificity": 0.47619047619047616,
+      "precision": 0.5,
+      "balanced_accuracy": 0.43452380952380953,
+      "accuracy": 0.42857142857142855
+    }
+  ],
+  "development_cases": [
+    {
+      "pair_id": "D35V04-00d7806ba68b",
+      "label": "repeated_template",
+      "clean_jaccard": 0.008547008547008548,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-05194a85a6d1",
+      "label": "repeated_template",
+      "clean_jaccard": 0.00847457627118644,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-091233a75e2f",
+      "label": "distinct_content",
+      "clean_jaccard": 0,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-124a2820e0f9",
+      "label": "repeated_template",
+      "clean_jaccard": 0,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-13ea87a35477",
+      "label": "repeated_template",
+      "clean_jaccard": 0,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-16a4fc5a7ba0",
+      "label": "repeated_template",
+      "clean_jaccard": 0.0375,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-24479e88b057",
+      "label": "distinct_content",
+      "clean_jaccard": 0,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-2a299b19bbd7",
+      "label": "repeated_template",
+      "clean_jaccard": 0,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-355480aae8be",
+      "label": "repeated_template",
+      "clean_jaccard": 0.007407407407407408,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-36b3257006a6",
+      "label": "distinct_content",
+      "clean_jaccard": 0.002612671456564337,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-40b3d23914ff",
+      "label": "repeated_template",
+      "clean_jaccard": 0,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-4179e200eef1",
+      "label": "repeated_template",
+      "clean_jaccard": 0,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-472a5ed1dd9b",
+      "label": "repeated_template",
+      "clean_jaccard": 0,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-47c812ab02ff",
+      "label": "distinct_content",
+      "clean_jaccard": 0.0012598425196850393,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-48a813001cf8",
+      "label": "repeated_template",
+      "clean_jaccard": 0.026845637583892617,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-49c62c05901b",
+      "label": "repeated_template",
+      "clean_jaccard": 0,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-4c25132cb423",
+      "label": "distinct_content",
+      "clean_jaccard": 0.0007810466024472793,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-4c29d5e8b389",
+      "label": "repeated_template",
+      "clean_jaccard": 0,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-4e6765db4b42",
+      "label": "repeated_template",
+      "clean_jaccard": 0,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-57ea06e7bebf",
+      "label": "distinct_content",
+      "clean_jaccard": 0.087890625,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-58cb12a307cf",
+      "label": "repeated_template",
+      "clean_jaccard": 0.033707865168539325,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-5949209c5661",
+      "label": "repeated_template",
+      "clean_jaccard": 0.05113636363636364,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-5bf9d1061b88",
+      "label": "distinct_content",
+      "clean_jaccard": 0.037243401759530795,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-5c52b4dc6c85",
+      "label": "distinct_content",
+      "clean_jaccard": 0.08743169398907104,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-5f5345d86461",
+      "label": "distinct_content",
+      "clean_jaccard": 0.009505703422053232,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-662c9d28e5ac",
+      "label": "distinct_content",
+      "clean_jaccard": 0.0002654632333421821,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-663b6c0db69f",
+      "label": "distinct_content",
+      "clean_jaccard": 0.043959519291587604,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-6c0cc0a2b59a",
+      "label": "repeated_template",
+      "clean_jaccard": 0,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-6d4e31d9301f",
+      "label": "distinct_content",
+      "clean_jaccard": 0.21940928270042195,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-7638be6fa8fd",
+      "label": "repeated_template",
+      "clean_jaccard": 0,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-85dbc897261e",
+      "label": "repeated_template",
+      "clean_jaccard": 0,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-97ecbb9cf1b7",
+      "label": "repeated_template",
+      "clean_jaccard": 0.024193548387096774,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-980c6f4f6db1",
+      "label": "repeated_template",
+      "clean_jaccard": 0.02158273381294964,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-9fea3a8d4a27",
+      "label": "distinct_content",
+      "clean_jaccard": 0.035614913745130775,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-a43d7a4e2a50",
+      "label": "repeated_template",
+      "clean_jaccard": 0.03592814371257485,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-a7a287c8a115",
+      "label": "repeated_template",
+      "clean_jaccard": 0,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-a7c513c633bb",
+      "label": "repeated_template",
+      "clean_jaccard": 0,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-afc4a8cd4f69",
+      "label": "repeated_template",
+      "clean_jaccard": 0.037267080745341616,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-b78511d07f5e",
+      "label": "distinct_content",
+      "clean_jaccard": 0.0008369951872776732,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-bcc2725417e2",
+      "label": "repeated_template",
+      "clean_jaccard": 0.025210084033613446,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-c2751f575334",
+      "label": "repeated_template",
+      "clean_jaccard": 0,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-d3868ac98371",
+      "label": "distinct_content",
+      "clean_jaccard": 0.04650337238196663,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-d9aec7acea47",
+      "label": "distinct_content",
+      "clean_jaccard": 0.0008936550491510277,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-df6ed024149f",
+      "label": "distinct_content",
+      "clean_jaccard": 0.002751375687843922,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-e472fb8f0e27",
+      "label": "repeated_template",
+      "clean_jaccard": 0.01818181818181818,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-e9dfc28b3786",
+      "label": "distinct_content",
+      "clean_jaccard": 0.031093039942597465,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-f56a72049c46",
+      "label": "distinct_content",
+      "clean_jaccard": 0.029631305134584937,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-f5cd3b0bbf73",
+      "label": "distinct_content",
+      "clean_jaccard": 0.04963164017060876,
+      "prediction": "repeated_template"
+    },
+    {
+      "pair_id": "D35V04-f7093c2b77d0",
+      "label": "distinct_content",
+      "clean_jaccard": 0.0019646365422396855,
+      "prediction": "repeated_template"
+    }
+  ],
+  "limitations": [
+    "development contains three organizations",
+    "pairs within an organization are dependent",
+    "literal overlap only",
+    "rule does not measure authorship paraphrase or external originality"
+  ],
+  "scoring_authorized": false
+}

@@ -1,0 +1,50 @@
+{
+  "method": "d35-v0.4-double-review-agreement",
+  "partitions": {
+    "development": {
+      "n": 49,
+      "label_agreement": 48,
+      "agreement_rate": 0.9795918367346939,
+      "cohens_kappa": 0.9580838323353293,
+      "family_agreement": 49,
+      "counts_a": {
+        "repeated_template": 29,
+        "distinct_content": 20,
+        "uncertain": 0
+      },
+      "counts_b": {
+        "repeated_template": 28,
+        "distinct_content": 21,
+        "uncertain": 0
+      },
+      "disagreements": [
+        {
+          "pair_id": "D35V04-6d4e31d9301f",
+          "a": "repeated_template",
+          "b": "distinct_content",
+          "family_a": "yes",
+          "family_b": "yes"
+        }
+      ]
+    },
+    "holdout": {
+      "n": 29,
+      "label_agreement": 29,
+      "agreement_rate": 1,
+      "cohens_kappa": 1,
+      "family_agreement": 29,
+      "counts_a": {
+        "repeated_template": 3,
+        "distinct_content": 26,
+        "uncertain": 0
+      },
+      "counts_b": {
+        "repeated_template": 3,
+        "distinct_content": 26,
+        "uncertain": 0
+      },
+      "disagreements": []
+    }
+  },
+  "scoring_authorized": false
+}

@@ -1,0 +1,196 @@
+{
+  "record_id": "EXP-0005-D35-V04-LEGAL-DISCOVERY",
+  "created_at": "2026-07-31",
+  "executor": "d35_v04_legal_pages",
+  "method": "directed_official-site_web_discovery_v0.4",
+  "scope": {
+    "candidate_ids": [
+      "CAND-LEGAL-INT-03",
+      "CAND-LEGAL-NAT-05",
+      "CAND-LEGAL-REC-03",
+      "CAND-LEGAL-REC-17"
+    ],
+    "collection_mode": "manual, bounded web navigation and search",
+    "scoring_performed": false,
+    "labels_assigned": false
+  },
+  "organizations": [
+    {
+      "candidate_id": "CAND-LEGAL-INT-03",
+      "organization_name": "Clifford Chance",
+      "official_domain": "cliffordchance.com",
+      "preferred_page_type": "sector_specialty",
+      "corpus_status": "proposed_complete",
+      "pages": [
+        {
+          "url": "https://www.cliffordchance.com/expertise/sectors/energy_and_resources.html",
+          "title": "Energy & Resources",
+          "page_role": "sector_specialty",
+          "official_source": true,
+          "access_status": "accessible_via_web",
+          "proposed_for_inclusion": true
+        },
+        {
+          "url": "https://www.cliffordchance.com/expertise/sectors/financial-services.html",
+          "title": "Financial Services",
+          "page_role": "sector_specialty",
+          "official_source": true,
+          "access_status": "accessible_via_web",
+          "proposed_for_inclusion": true
+        },
+        {
+          "url": "https://www.cliffordchance.com/expertise/sectors/healthcare_life_sciences_and_chemicals.html",
+          "title": "Healthcare & Life Sciences",
+          "page_role": "sector_specialty",
+          "official_source": true,
+          "access_status": "accessible_via_web",
+          "proposed_for_inclusion": true
+        },
+        {
+          "url": "https://www.cliffordchance.com/expertise/sectors/insurance.html",
+          "title": "Insurance",
+          "page_role": "sector_specialty",
+          "official_source": true,
+          "access_status": "accessible_via_web",
+          "proposed_for_inclusion": true
+        }
+      ],
+      "limitations": [
+        "English-language international reference; do not pool blindly with Recife organizations.",
+        "Existing snapshot already contains two other sector pages; proposed pages must be deduplicated before capture."
+      ]
+    },
+    {
+      "candidate_id": "CAND-LEGAL-NAT-05",
+      "organization_name": "Demarest",
+      "official_domain": "demarest.com.br",
+      "preferred_page_type": "practice_specialty",
+      "corpus_status": "proposed_complete",
+      "pages": [
+        {
+          "url": "https://www.demarest.com.br/areas-de-atuacao/agronegocio/",
+          "title": "Agronegócio",
+          "page_role": "practice_specialty",
+          "official_source": true,
+          "access_status": "accessible_via_web",
+          "proposed_for_inclusion": true
+        },
+        {
+          "url": "https://www.demarest.com.br/areas-de-atuacao/ambiental/",
+          "title": "Ambiental",
+          "page_role": "practice_specialty",
+          "official_source": true,
+          "access_status": "accessible_via_web",
+          "proposed_for_inclusion": true
+        },
+        {
+          "url": "https://www.demarest.com.br/areas-de-atuacao/bancario-e-financeiro/",
+          "title": "Bancário e Financeiro",
+          "page_role": "practice_specialty",
+          "official_source": true,
+          "access_status": "accessible_via_web",
+          "proposed_for_inclusion": true
+        },
+        {
+          "url": "https://www.demarest.com.br/areas-de-atuacao/concorrencial/",
+          "title": "Concorrencial",
+          "page_role": "practice_specialty",
+          "official_source": true,
+          "access_status": "accessible_via_web",
+          "proposed_for_inclusion": true
+        }
+      ],
+      "limitations": [
+        "Pages include recurring navigation, partner lists, contact blocks and insights; body extraction must remove boilerplate deterministically."
+      ]
+    },
+    {
+      "candidate_id": "CAND-LEGAL-REC-03",
+      "organization_name": "JHN Advogados Associados",
+      "official_domain": "jhn.jur.adv.br",
+      "preferred_page_type": "practice_specialty",
+      "corpus_status": "insufficient_public_pages",
+      "pages": [
+        {
+          "url": "https://jhn.jur.adv.br/adm-de-bens-e-servicos",
+          "title": "Adm de bens e serviços",
+          "page_role": "service_specialty",
+          "official_source": true,
+          "access_status": "accessible_via_web_search",
+          "proposed_for_inclusion": true
+        },
+        {
+          "url": "https://jhn.jur.adv.br/areas-de-atuacao",
+          "title": "Áreas de atuação",
+          "page_role": "practice_index",
+          "official_source": true,
+          "access_status": "accessible_via_web_search",
+          "proposed_for_inclusion": false,
+          "exclusion_reason": "index/template text is not equivalent to an individual specialty page"
+        }
+      ],
+      "limitations": [
+        "Directed searches did not expose four public individual practice or editorial pages on the official domain.",
+        "The areas page contains apparent website-template guidance rather than populated practice descriptions.",
+        "Do not fabricate page URLs or relax page-type equivalence to complete the corpus."
+      ]
+    },
+    {
+      "candidate_id": "CAND-LEGAL-REC-17",
+      "organization_name": "Serur Advogados",
+      "official_domain": "serur.com.br",
+      "preferred_page_type": "sector_specialty",
+      "corpus_status": "proposed_complete",
+      "pages": [
+        {
+          "url": "https://serur.com.br/segmentos/agencias-reguladoras",
+          "title": "Agências Reguladoras",
+          "page_role": "sector_specialty",
+          "official_source": true,
+          "access_status": "accessible_via_web",
+          "proposed_for_inclusion": true
+        },
+        {
+          "url": "https://serur.com.br/segmentos/bancos",
+          "title": "Bancos",
+          "page_role": "sector_specialty",
+          "official_source": true,
+          "access_status": "accessible_via_web",
+          "proposed_for_inclusion": true
+        },
+        {
+          "url": "https://serur.com.br/segmentos/construcao-civil",
+          "title": "Construção Civil",
+          "page_role": "sector_specialty",
+          "official_source": true,
+          "access_status": "accessible_via_web",
+          "proposed_for_inclusion": true
+        },
+        {
+          "url": "https://serur.com.br/segmentos/segmento-servicos-financeiros",
+          "title": "Serviços Financeiros",
+          "page_role": "sector_specialty",
+          "official_source": true,
+          "access_status": "accessible_via_web",
+          "proposed_for_inclusion": true
+        }
+      ],
+      "limitations": [
+        "Pages contain extensive recurring navigation, professionals, addresses and cookie text; clean extraction is mandatory.",
+        "The Serviços Financeiros page already exists in the accepted recovery evidence and must be reused, not duplicated."
+      ]
+    }
+  ],
+  "summary": {
+    "organizations_reviewed": 4,
+    "pages_discovered": 14,
+    "pages_proposed": 13,
+    "organizations_with_four_proposed_equivalent_pages": 3,
+    "organizations_with_insufficient_equivalent_pages": 1
+  },
+  "gate": {
+    "status": "discovery_only",
+    "next_action": "auditor reviews corpus eligibility, page-type equivalence, deduplication and split assignment before any text capture",
+    "d35_scoring_authorized": false
+  }
+}

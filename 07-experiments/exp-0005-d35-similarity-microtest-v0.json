@@ -1,0 +1,192 @@
+{
+  "method": "d35-similarity-lab-v0",
+  "status": "laboratory_candidate_not_scoring",
+  "parameters": {
+    "minimum_words": 150,
+    "shingle_size": 5,
+    "normalization": "NFKD lowercase alphanumeric"
+  },
+  "results": [
+    {
+      "candidate_id": "CAND-ACCOUNT-REC-04",
+      "substantive_pages": 3,
+      "max_internal_jaccard": 0.2586750788643533,
+      "max_cross_candidate_jaccard": 0,
+      "top_internal": [
+        {
+          "a": "https://www.hmape.com.br/",
+          "b": "https://www.hmape.com.br/escritorio-virtual",
+          "j": 0.2586750788643533
+        },
+        {
+          "a": "https://www.hmape.com.br/escritorio-virtual",
+          "b": "https://www.hmape.com.br/servicos",
+          "j": 0.1105121293800539
+        },
+        {
+          "a": "https://www.hmape.com.br/",
+          "b": "https://www.hmape.com.br/servicos",
+          "j": 0.10108303249097472
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-ACCOUNT-REC-05",
+      "substantive_pages": 2,
+      "max_internal_jaccard": 0.09499136442141623,
+      "max_cross_candidate_jaccard": 0,
+      "top_internal": [
+        {
+          "a": "https://rsconsultoria-pe.com.br/",
+          "b": "https://rsconsultoria-pe.com.br/servicos.php",
+          "j": 0.09499136442141623
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-ACCOUNT-REC-14",
+      "substantive_pages": 5,
+      "max_internal_jaccard": 0.7041984732824428,
+      "max_cross_candidate_jaccard": 0.0010787486515641855,
+      "top_internal": [
+        {
+          "a": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-agencia-de-marketing-digital/",
+          "b": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-arquitetos-e-designers-de-interiores/",
+          "j": 0.7041984732824428
+        },
+        {
+          "a": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-arquitetos-e-designers-de-interiores/",
+          "b": "https://marjuhh.com.br/trabalhe-conosco/",
+          "j": 0.5019455252918288
+        },
+        {
+          "a": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-agencia-de-marketing-digital/",
+          "b": "https://marjuhh.com.br/trabalhe-conosco/",
+          "j": 0.5009708737864078
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-ACCOUNT-REC-18",
+      "substantive_pages": 4,
+      "max_internal_jaccard": 0.16521739130434782,
+      "max_cross_candidate_jaccard": 0.0010787486515641855,
+      "top_internal": [
+        {
+          "a": "https://trustcontabilidade.com.br/contabilidade-para-dentistas-em-recife-pe/",
+          "b": "https://trustcontabilidade.com.br/contabilidade-para-veterinarios-em-recife-pe/",
+          "j": 0.16521739130434782
+        },
+        {
+          "a": "https://trustcontabilidade.com.br/contabilidade-para-dentistas-em-recife-pe/",
+          "b": "https://trustcontabilidade.com.br/contabilidade-para-medicos-em-recife-pe/",
+          "j": 0.14267990074441686
+        },
+        {
+          "a": "https://trustcontabilidade.com.br/contabilidade-para-medicos-em-recife-pe/",
+          "b": "https://trustcontabilidade.com.br/contabilidade-para-veterinarios-em-recife-pe/",
+          "j": 0.1402439024390244
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-LEGAL-INT-03",
+      "substantive_pages": 6,
+      "max_internal_jaccard": 0.9919678714859438,
+      "max_cross_candidate_jaccard": 0,
+      "top_internal": [
+        {
+          "a": "https://www.cliffordchance.com/expertise/sectors/banks.html",
+          "b": "https://www.cliffordchance.com/expertise/sectors/consumer_goods_and_retail.html",
+          "j": 0.9919678714859438
+        },
+        {
+          "a": "https://www.cliffordchance.com/expertise.html",
+          "b": "https://www.cliffordchance.com/expertise/sectors.html",
+          "j": 0.8206724782067247
+        },
+        {
+          "a": "https://www.cliffordchance.com/expertise.html",
+          "b": "https://www.cliffordchance.com/expertise/sectors/banks.html",
+          "j": 0.5271398747390397
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-LEGAL-NAT-05",
+      "substantive_pages": 3,
+      "max_internal_jaccard": 0.12636165577342048,
+      "max_cross_candidate_jaccard": 0,
+      "top_internal": [
+        {
+          "a": "https://www.demarest.com.br/areas-de-atuacao/",
+          "b": "https://www.demarest.com.br/sobre-nos/",
+          "j": 0.12636165577342048
+        },
+        {
+          "a": "https://www.demarest.com.br/areas-de-atuacao/",
+          "b": "https://www.demarest.com.br/nossa-historia/",
+          "j": 0.022686025408348458
+        },
+        {
+          "a": "https://www.demarest.com.br/nossa-historia/",
+          "b": "https://www.demarest.com.br/sobre-nos/",
+          "j": 0.01628052598622417
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-LEGAL-REC-03",
+      "substantive_pages": 3,
+      "max_internal_jaccard": 0.1906779661016949,
+      "max_cross_candidate_jaccard": 0,
+      "top_internal": [
+        {
+          "a": "https://jhn.jur.adv.br/areas-de-atuacao",
+          "b": "https://jhn.jur.adv.br/quem-somos",
+          "j": 0.1906779661016949
+        },
+        {
+          "a": "https://jhn.jur.adv.br/adm-de-bens-e-servicos",
+          "b": "https://jhn.jur.adv.br/quem-somos",
+          "j": 0.1258741258741259
+        },
+        {
+          "a": "https://jhn.jur.adv.br/adm-de-bens-e-servicos",
+          "b": "https://jhn.jur.adv.br/areas-de-atuacao",
+          "j": 0.12278308321964529
+        }
+      ]
+    },
+    {
+      "candidate_id": "CAND-LEGAL-REC-17",
+      "substantive_pages": 4,
+      "max_internal_jaccard": 0.4818880351262349,
+      "max_cross_candidate_jaccard": 0,
+      "top_internal": [
+        {
+          "a": "https://serur.com.br/",
+          "b": "https://serur.com.br/blog/desenrola-adimplentes-e-os-novos-desafios-para-o-contencioso-bancario",
+          "j": 0.4818880351262349
+        },
+        {
+          "a": "https://serur.com.br/blog/desenrola-adimplentes-e-os-novos-desafios-para-o-contencioso-bancario",
+          "b": "https://serur.com.br/segmentos",
+          "j": 0.4594594594594595
+        },
+        {
+          "a": "https://serur.com.br/",
+          "b": "https://serur.com.br/segmentos",
+          "j": 0.3671399594320487
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "boilerplate not removed",
+    "page types not separated",
+    "exact 5-gram overlap misses paraphrase",
+    "cross-sample comparison is not external originality",
+    "no scores may be assigned"
+  ]
+}
