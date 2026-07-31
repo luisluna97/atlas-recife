@@ -1,0 +1,95 @@
+{
+  "method": "d35-v0.4-directed-account-page-discovery",
+  "executed_at": "2026-07-31",
+  "executor": "scientist/account-directed-discovery",
+  "scope": {
+    "candidate_ids": [
+      "CAND-ACCOUNT-REC-04",
+      "CAND-ACCOUNT-REC-05",
+      "CAND-ACCOUNT-REC-14",
+      "CAND-ACCOUNT-REC-18"
+    ],
+    "collection_mode": "manual, directed, official-site navigation and search only",
+    "scoring_authorized": false
+  },
+  "candidates": [
+    {
+      "candidate_id": "CAND-ACCOUNT-REC-04",
+      "organization": "HMA Contabilidade",
+      "official_domain": "hmape.com.br",
+      "result": "insufficient_equivalent_pages",
+      "pages": [
+        {"url":"https://www.hmape.com.br/servicos","title":"Serviços","page_type":"service_aggregate","access":"public_verified","include_v0_4":false},
+        {"url":"https://www.hmape.com.br/escritorio-virtual","title":"Escritório Virtual","page_type":"service","access":"public_verified","include_v0_4":false},
+        {"url":"https://www.hmape.com.br/informativos","title":"Informativos","page_type":"utility_aggregate","access":"public_verified","include_v0_4":false}
+      ],
+      "limitations": [
+        "No set of four equivalent official specialty or editorial pages was exposed.",
+        "The Informativos page mainly links to sitecontabil.com.br and public utilities; those pages are not first-party HMA content."
+      ],
+      "proposal": "Do not include in the v0.4 text-similarity corpus unless four first-party equivalent pages are later found."
+    },
+    {
+      "candidate_id": "CAND-ACCOUNT-REC-05",
+      "organization": "RS Consultoria Empresarial Contábil",
+      "official_domain": "rsconsultoria-pe.com.br",
+      "result": "insufficient_equivalent_pages",
+      "pages": [
+        {"url":"https://rsconsultoria-pe.com.br/","title":"Home","page_type":"home","access":"public_verified","include_v0_4":false},
+        {"url":"https://rsconsultoria-pe.com.br/servicos.php","title":"Serviços","page_type":"service_aggregate","access":"public_verified_from_existing_evidence","include_v0_4":false}
+      ],
+      "limitations": [
+        "News and utility links visible on the official home page point to sitecontabil.com.br.",
+        "No set of four first-party equivalent pages was identified in the directed inspection."
+      ],
+      "proposal": "Exclude from the v0.4 similarity corpus; retain as an explicit coverage limitation."
+    },
+    {
+      "candidate_id": "CAND-ACCOUNT-REC-14",
+      "organization": "Marjuhh Assessoria Contábil",
+      "official_domain": "marjuhh.com.br",
+      "result": "eligible_specialty_corpus",
+      "pages": [
+        {"url":"https://marjuhh.com.br/assessoria-contabil-em-recife-para-agencia-de-marketing-digital/","title":"Assessoria Contábil para Agência de Marketing Digital","page_type":"specialty","access":"public_verified","include_v0_4":true},
+        {"url":"https://marjuhh.com.br/assessoria-contabil-em-recife-para-arquitetos-e-designers-de-interiores/","title":"Assessoria Contábil para Arquitetos e Designers de Interiores","page_type":"specialty","access":"public_verified","include_v0_4":true},
+        {"url":"https://marjuhh.com.br/assessoria-contabil-em-recife-para-construcao-civil/","title":"Assessoria Contábil para Construção Civil","page_type":"specialty","access":"public_verified","include_v0_4":true},
+        {"url":"https://marjuhh.com.br/assessoria-contabil-em-recife-para-e-commerce/","title":"Assessoria Contábil para E-commerce","page_type":"specialty","access":"public_verified","include_v0_4":true},
+        {"url":"https://marjuhh.com.br/assessoria-contabil-em-recife-para-hoteis-e-pousadas/","title":"Assessoria Contábil para Hotéis e Pousadas","page_type":"specialty","access":"public_verified","include_v0_4":true},
+        {"url":"https://marjuhh.com.br/assessoria-contabil-em-recife-para-medicos-e-profissionais-da-saude/","title":"Assessoria Contábil para Profissionais da Saúde","page_type":"specialty","access":"public_verified","include_v0_4":true},
+        {"url":"https://marjuhh.com.br/assessoria-contabil-em-recife-para-supermercados/","title":"Assessoria Contábil para Supermercados","page_type":"specialty","access":"public_verified","include_v0_4":true},
+        {"url":"https://marjuhh.com.br/assessoria-contabil-em-recife-para-youtubers-e-infoprodutores/","title":"Assessoria Contábil para Youtubers e Infoprodutores","page_type":"specialty","access":"public_verified","include_v0_4":true}
+      ],
+      "limitations": [
+        "Some pages were already present in the v0.1 snapshot; v0.4 must create a new immutable capture and must not reuse their labels.",
+        "The repeated navigation and lead form require deterministic boilerplate removal before comparison."
+      ],
+      "proposal": "Include as one accounting organization in development or holdout, never both; freeze eight pages before labeling."
+    },
+    {
+      "candidate_id": "CAND-ACCOUNT-REC-18",
+      "organization": "Trust Contabilidade",
+      "official_domain": "trustcontabilidade.com.br",
+      "result": "eligible_editorial_corpus_after_access_confirmation",
+      "pages": [
+        {"url":"https://trustcontabilidade.com.br/ipi-conheca-os-planos-do-governo-para-esse-tributo-voce-nao-vai-acreditar/","title":"IPI: conheça os planos do governo para esse tributo","page_type":"editorial","access":"official_link_discovered_fetch_pending","include_v0_4":true},
+        {"url":"https://trustcontabilidade.com.br/sera-que-um-processo-seletivo-pode-acabar-gerando-vinculo-empregaticio/","title":"Será que um processo seletivo pode acabar gerando vínculo empregatício?","page_type":"editorial","access":"public_verified","include_v0_4":true},
+        {"url":"https://trustcontabilidade.com.br/sociedade-limitada-saiba-o-que-e-e-conheca-as-principais-vantagens/","title":"Sociedade limitada: saiba o que é e conheça as principais vantagens","page_type":"editorial","access":"public_verified","include_v0_4":true},
+        {"url":"https://trustcontabilidade.com.br/falencia-pode-ajudar-voce-a-reestruturar-sua-empresa-entenda-como-funciona/","title":"Falência pode ajudar você a reestruturar sua empresa","page_type":"editorial","access":"official_link_discovered_fetch_pending","include_v0_4":true},
+        {"url":"https://trustcontabilidade.com.br/estrategias-de-marketing-que-voce-precisa-usar-para-otimizar-as-vendas-em-seu-negocio/","title":"Estratégias de marketing para otimizar as vendas","page_type":"editorial","access":"official_link_discovered_fetch_pending","include_v0_4":true}
+      ],
+      "limitations": [
+        "Three of five editorial URLs were discovered through official internal links but still require a fresh browser access check before capture.",
+        "At least two posts explicitly attribute their source to Contábeis; this corpus can test internal literal repetition but cannot establish Trust authorship or external originality."
+      ],
+      "proposal": "Confirm all five URLs in-browser, then assign the entire organization to development or holdout; do not mix its specialty pages with the editorial comparison set."
+    }
+  ],
+  "summary": {
+    "organizations_inspected": 4,
+    "eligible_now": 1,
+    "eligible_after_access_confirmation": 1,
+    "insufficient": 2,
+    "proposed_pages": 13,
+    "scores_or_labels_created": 0
+  }
+}

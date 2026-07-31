@@ -1,0 +1,47 @@
+{
+  "method": "d35-review-agreement-v0.3",
+  "reviewer_a_sha256": "faca82f1095f7f91b3b5cce78759742e44cb4950502d803eec4c9eee1e8e9502",
+  "reviewer_b_sha256": "0211e6cadc6f9395535f77d436db1df789c1356836330017de62b697603ee180",
+  "pairs": 13,
+  "label_agreement": {
+    "count": 12,
+    "rate": 0.9230769230769231,
+    "cohens_kappa": 0.8522727272727274
+  },
+  "page_type_agreement": {
+    "count": 11,
+    "rate": 0.8461538461538461
+  },
+  "label_counts": {
+    "a": {
+      "repeated_template": 8,
+      "distinct_content": 5,
+      "uncertain": 0
+    },
+    "b": {
+      "repeated_template": 7,
+      "distinct_content": 5,
+      "uncertain": 1
+    }
+  },
+  "disagreements": [
+    {
+      "id": "D35PAIR-3fb07173f6a2",
+      "part": "holdout",
+      "a": "repeated_template",
+      "b": "uncertain",
+      "typeA": "yes",
+      "typeB": "no"
+    },
+    {
+      "id": "D35PAIR-e82eb3de2fc1",
+      "part": "development",
+      "a": "repeated_template",
+      "b": "repeated_template",
+      "typeA": "no",
+      "typeB": "yes"
+    }
+  ],
+  "holdout_policy": "labels not compared with algorithm; holdout remains sealed",
+  "scoring_authorized": false
+}

@@ -25,5 +25,6 @@ por prioridade, dependências, orçamento e capacidade disponível.
 ## Registro
 
 - [MISS-0001 — War Room portátil e Mesa do CEO](MISS-0001.md)
+- [MISS-0006 — Validar os dois demonstrativos](MISS-0006.md)
 
 Use o [template de missão](../templates/mission.md).

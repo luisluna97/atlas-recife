@@ -1,0 +1,31 @@
+{
+  "evaluation_version": "d35-holdout-v0.3",
+  "status": "single_holdout_evaluation",
+  "rule_sha256": "c600f54129f0d635d730711c7444834764fc6c2266486166edbafd782c1b6ffa",
+  "gold_sha256": "a9e03741cc5693b82ddd35ecf898fbf0fffe7d807e163e80763b47ff3cbe2ee5",
+  "holdout_n": 1,
+  "metrics": {
+    "threshold": 0.29834093525208116,
+    "tp": 0,
+    "tn": 1,
+    "fp": 0,
+    "fn": 0,
+    "balanced_accuracy": 0.5,
+    "accuracy": 1
+  },
+  "cases": [
+    {
+      "pair_id": "D35PAIR-5521266d3c4a",
+      "label": "distinct_content",
+      "clean_jaccard": 0.056179775280898875,
+      "prediction": "distinct_content",
+      "correct": true
+    }
+  ],
+  "limitations": [
+    "tiny non-independent site sample",
+    "literal internal repetition only",
+    "not authorship paraphrase or external originality"
+  ],
+  "scoring_authorized": false
+}

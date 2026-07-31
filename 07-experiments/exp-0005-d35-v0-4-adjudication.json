@@ -1,0 +1,84 @@
+{
+  "artifact_id": "exp-0005-d35-v0-4-adjudication",
+  "version": "0.4.0",
+  "created_at": "2026-07-31",
+  "executor": "Codex adjudicator",
+  "model": "GPT-5",
+  "mission": "Adjudicar exclusivamente a divergência do par D35V04-6d4e31d9301f no development D3.5 v0.4.",
+  "scope": {
+    "partition": "development",
+    "pair_ids": [
+      "D35V04-6d4e31d9301f"
+    ],
+    "excluded": [
+      "holdout",
+      "algorithm_features",
+      "scores",
+      "code",
+      "other_pairs"
+    ]
+  },
+  "inputs": [
+    "07-experiments/exp-0005-d35-v0-4-development-reviewer-a.json",
+    "07-experiments/exp-0005-d35-v0-4-development-reviewer-a-notes.md",
+    "07-experiments/exp-0005-d35-v0-4-development-reviewer-b.json",
+    "07-experiments/exp-0005-d35-v0-4-development-reviewer-b-notes.md",
+    "07-experiments/exp-0005-d35-benchmark-protocol-v0-4.md"
+  ],
+  "method": "Comparação humana cega das rationales e dos excerpts fornecidos pelos dois revisores, aplicando o limite do protocolo v0.4 a repetição literal interna e separando boilerplate compartilhado de conteúdo substantivo.",
+  "tools": [
+    "leitura local direcionada",
+    "julgamento humano assistido por LLM"
+  ],
+  "policies": [
+    "ATLAS.md",
+    "DECISIONS.md",
+    "05-agents/auditor.md",
+    "exp-0005-d35-benchmark-protocol-v0-4"
+  ],
+  "budget": {
+    "external_cost_brl": 0,
+    "pair_limit": 1
+  },
+  "kpis": {
+    "requested_pairs": 1,
+    "adjudicated_pairs": 1,
+    "out_of_scope_pairs_opened": 0
+  },
+  "scoring_authorized": false,
+  "adjudications": [
+    {
+      "pair_id": "D35V04-6d4e31d9301f",
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "confidence": 0.9,
+      "rationale": "As duas páginas são da mesma coleção de segmentos e compartilham shell, ordem editorial e vocabulário do setor financeiro. Porém, nos excertos revisados, a página de bancos desenvolve conteúdo específico sobre demandas bancárias, carteiras volumosas e jurimetria, enquanto a página de serviços financeiros amplia o tratamento para fintechs, instituições de pagamento, processos sancionadores, compliance e integração multidisciplinar. A sobreposição substantiva é sobretudo temática e estrutural, sem repetição literal suficiente além do boilerplate para o rótulo repeated_template no escopo v0.4.",
+      "reviewer_a": {
+        "same_page_family": "yes",
+        "label": "repeated_template",
+        "confidence": 0.82
+      },
+      "reviewer_b": {
+        "same_page_family": "yes",
+        "label": "distinct_content",
+        "confidence": 0.96
+      }
+    }
+  ],
+  "logs": {
+    "reviewed_pair_ids": [
+      "D35V04-6d4e31d9301f"
+    ],
+    "holdout_opened": false,
+    "features_opened": false,
+    "scores_opened": false,
+    "code_opened": false
+  },
+  "tests": {
+    "single_pair_only": true,
+    "required_fields_present": true,
+    "scoring_blocked": true
+  },
+  "audit": "Decisão rastreável aos dois registros de revisão e ao protocolo v0.4; nenhuma evidência externa foi adicionada.",
+  "escalation": "Novo gate do Auditor é obrigatório antes de qualquer uso em scoring; autoria, paráfrase e originalidade externa permanecem fora do escopo."
+}
