@@ -1,0 +1,130 @@
+{
+  "method": "d35-v0.4-directed-account-replacement-discovery",
+  "executed_at": "2026-07-31",
+  "executor": "scientist/account-replacement-discovery",
+  "scope": {
+    "candidate_ids": ["CAND-ACCOUNT-NAT-01", "CAND-ACCOUNT-INT-01"],
+    "collection_mode": "manual directed search and first-party page verification",
+    "page_family": "editorial",
+    "scoring_authorized": false
+  },
+  "candidates": [
+    {
+      "candidate_id": "CAND-ACCOUNT-NAT-01",
+      "organization": "Contabilizei",
+      "official_domain": "contabilizei.com.br",
+      "result": "eligible_editorial_corpus",
+      "pages": [
+        {
+          "url": "https://www.contabilizei.com.br/contabilidade-online/contabilidade-para-pequenas-empresas/",
+          "title": "Contabilidade para micro e pequenas empresas: como fazer",
+          "page_type": "editorial_guide",
+          "access": "public_verified",
+          "source": "first_party"
+        },
+        {
+          "url": "https://www.contabilizei.com.br/contabilidade-online/escrituracao-contabil/",
+          "title": "Escrituração contábil: o que é e como fazer nas empresas",
+          "page_type": "editorial_guide",
+          "access": "public_verified",
+          "source": "first_party"
+        },
+        {
+          "url": "https://www.contabilizei.com.br/contabilidade-online/objetivo-da-contabilidade/",
+          "title": "Qual o objetivo da contabilidade?",
+          "page_type": "editorial_guide",
+          "access": "public_verified",
+          "source": "first_party"
+        },
+        {
+          "url": "https://www.contabilizei.com.br/contabilidade-online/assessoria-contabil/",
+          "title": "O que é assessoria contábil e como contratar esse serviço?",
+          "page_type": "editorial_guide",
+          "access": "public_verified",
+          "source": "first_party"
+        },
+        {
+          "url": "https://www.contabilizei.com.br/contabilidade-online/servicos-prestados-pelo-escritorio-de-contabilidade/",
+          "title": "Quais são os serviços contábeis prestados por um escritório de contabilidade?",
+          "page_type": "editorial_guide",
+          "access": "public_verified",
+          "source": "first_party"
+        },
+        {
+          "url": "https://www.contabilizei.com.br/contabilidade-online/contabilidade-empresarial/",
+          "title": "Contabilidade empresarial: o que é e qual sua importância",
+          "page_type": "editorial_guide",
+          "access": "public_verified",
+          "source": "first_party"
+        }
+      ],
+      "limitations": [
+        "Pages share a common editorial template and conversion components; deterministic boilerplate removal is required.",
+        "First-party hosting and named authorship do not prove external originality or exclusive authorship.",
+        "A new immutable capture is required; discovery extracts are not the benchmark snapshot."
+      ],
+      "proposal": "Freeze six editorial guides and assign the entire organization to exactly one split."
+    },
+    {
+      "candidate_id": "CAND-ACCOUNT-INT-01",
+      "organization": "Pilot",
+      "official_domain": "pilot.com",
+      "result": "eligible_editorial_corpus",
+      "pages": [
+        {
+          "url": "https://pilot.com/blog/bookkeeping-vs-accounting",
+          "title": "Bookkeeping vs. accounting: Which one do you really need?",
+          "page_type": "editorial_guide",
+          "access": "public_verified",
+          "source": "first_party"
+        },
+        {
+          "url": "https://pilot.com/blog/how-to-choose-accounting-software",
+          "title": "How to choose the right accounting software for your business",
+          "page_type": "editorial_guide",
+          "access": "public_verified",
+          "source": "first_party"
+        },
+        {
+          "url": "https://pilot.com/blog/what-does-a-bookkeeper-do",
+          "title": "What does a bookkeeper do?",
+          "page_type": "editorial_guide",
+          "access": "public_verified",
+          "source": "first_party"
+        },
+        {
+          "url": "https://pilot.com/blog/bookkeeping-with-pilot-how-it-works",
+          "title": "Bookkeeping with Pilot: How it works",
+          "page_type": "editorial_guide",
+          "access": "public_verified",
+          "source": "first_party"
+        },
+        {
+          "url": "https://pilot.com/blog/ai-bookkeeping-guide",
+          "title": "How to use AI for bookkeeping without losing control",
+          "page_type": "editorial_guide",
+          "access": "public_verified",
+          "source": "first_party"
+        }
+      ],
+      "limitations": [
+        "Pages span multiple publication years and may reflect template changes; capture must preserve publication metadata.",
+        "Common calls to action and product descriptions require deterministic boilerplate handling.",
+        "First-party hosting does not establish originality against the wider web."
+      ],
+      "proposal": "Freeze five editorial guides and assign the entire organization to the split opposite Contabilizei."
+    }
+  ],
+  "split_proposal": {
+    "development": ["CAND-ACCOUNT-NAT-01"],
+    "holdout": ["CAND-ACCOUNT-INT-01"],
+    "rationale": "Both have one equivalent first-party editorial family; organization and page overlap are zero.",
+    "status": "proposal_only_pending_snapshot_and_audit"
+  },
+  "summary": {
+    "organizations_inspected": 2,
+    "eligible": 2,
+    "verified_first_party_pages": 11,
+    "scores_or_labels_created": 0
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "gold_version": "d35-v0.4.2-holdout-gold",
+  "partition": "holdout",
+  "status": "sealed_holdout_labels",
+  "counts": {
+    "total": 29,
+    "repeated_template": 3,
+    "distinct_content": 26,
+    "uncertain": 0
+  },
+  "items": [
+    {
+      "pair_id": "D35V04-0c5193feec46",
+      "page_a": {
+        "url": "https://www.demarest.com.br/areas-de-atuacao/agronegocio/",
+        "text_sha256": "939d6031ed721df9a38a50ec6ef1c07851b9f4458ba4d762a689264b1872ad16"
+      },
+      "page_b": {
+        "url": "https://www.demarest.com.br/areas-de-atuacao/ambiental/",
+        "text_sha256": "1b2bed720c1fb0eff506f4a4996617f580bc0c7de7d784ed449797f9c5bfb328"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-11490298cca9",
+      "page_a": {
+        "url": "https://trustcontabilidade.com.br/ipi-conheca-os-planos-do-governo-para-esse-tributo-voce-nao-vai-acreditar/",
+        "text_sha256": "625be8f9d410300b43176bbfb84a12d547bb47361caad4afb3292c081aad1a87"
+      },
+      "page_b": {
+        "url": "https://trustcontabilidade.com.br/sociedade-limitada-saiba-o-que-e-e-conheca-as-principais-vantagens/",
+        "text_sha256": "4360e4ff2fdbd963968573e50cb3e015719c838b3d186cb88c67dc4d5e136b4a"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-152243cac471",
+      "page_a": {
+        "url": "https://www.cliffordchance.com/expertise/sectors/energy_and_resources.html",
+        "text_sha256": "5eb34662d47575de48b693c20cb378ff545dd6e76b6bb2d74a8421ba21e9a407"
+      },
+      "page_b": {
+        "url": "https://www.cliffordchance.com/expertise/sectors/financial-services.html",
+        "text_sha256": "4e7aa4c199b4f77e73c9182f10f1969cf51b97395f04e488684d960acddfb6b0"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-174bd435d157",
+      "page_a": {
+        "url": "https://trustcontabilidade.com.br/falencia-pode-ajudar-voce-a-reestruturar-sua-empresa-entenda-como-funciona/",
+        "text_sha256": "2bec4b3fbbffcdae1750a0772a33a9369b7d272c09fc35280cc4b9ec54727efc"
+      },
+      "page_b": {
+        "url": "https://trustcontabilidade.com.br/ipi-conheca-os-planos-do-governo-para-esse-tributo-voce-nao-vai-acreditar/",
+        "text_sha256": "625be8f9d410300b43176bbfb84a12d547bb47361caad4afb3292c081aad1a87"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-1cdf64de1ea4",
+      "page_a": {
+        "url": "https://pilot.com/blog/bookkeeping-vs-accounting",
+        "text_sha256": "b3a7137b675324b2b6967a9e1e2fe577639430b000ba60f40ab8846978363e4e"
+      },
+      "page_b": {
+        "url": "https://pilot.com/blog/bookkeeping-with-pilot-how-it-works",
+        "text_sha256": "cdef896d8269f4f1521619239c1c8a753afc5c7a3bf997ed0d0c6fc935b23466"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-2145331dde31",
+      "page_a": {
+        "url": "https://trustcontabilidade.com.br/sera-que-um-processo-seletivo-pode-acabar-gerando-vinculo-empregaticio/",
+        "text_sha256": "9f928bc2b53eda444cac3f1e2589bbbaf34ba45f60ec621f09cbb829c88da47e"
+      },
+      "page_b": {
+        "url": "https://trustcontabilidade.com.br/sociedade-limitada-saiba-o-que-e-e-conheca-as-principais-vantagens/",
+        "text_sha256": "4360e4ff2fdbd963968573e50cb3e015719c838b3d186cb88c67dc4d5e136b4a"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-21e1ab1c674b",
+      "page_a": {
+        "url": "https://pilot.com/blog/bookkeeping-vs-accounting",
+        "text_sha256": "b3a7137b675324b2b6967a9e1e2fe577639430b000ba60f40ab8846978363e4e"
+      },
+      "page_b": {
+        "url": "https://pilot.com/blog/what-does-a-bookkeeper-do",
+        "text_sha256": "93224915d4cde8b111c56ed154c5999e40b91ddf7dd178b7f3ea81865277475d"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-2fddb2cb9d8d",
+      "page_a": {
+        "url": "https://pilot.com/blog/bookkeeping-with-pilot-how-it-works",
+        "text_sha256": "cdef896d8269f4f1521619239c1c8a753afc5c7a3bf997ed0d0c6fc935b23466"
+      },
+      "page_b": {
+        "url": "https://pilot.com/blog/how-to-choose-accounting-software",
+        "text_sha256": "a6c7611ce66079da8434c81dc090d6f0ca699541734314870f4f9b3b2a8f2a69"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-42699c6fb63e",
+      "page_a": {
+        "url": "https://www.cliffordchance.com/expertise/sectors/financial-services.html",
+        "text_sha256": "4e7aa4c199b4f77e73c9182f10f1969cf51b97395f04e488684d960acddfb6b0"
+      },
+      "page_b": {
+        "url": "https://www.cliffordchance.com/expertise/sectors/insurance.html",
+        "text_sha256": "146365a64ae89a8866db6e3b2a9a3aba671863fe198831cdee19521712b8c50e"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-4b6c1bc28d6c",
+      "page_a": {
+        "url": "https://trustcontabilidade.com.br/estrategias-de-marketing-que-voce-precisa-usar-para-otimizar-as-vendas-em-seu-negocio/",
+        "text_sha256": "05bbb9773529db59f4b1a2275a795a77765f2fd77c554addc0499f8bf5635e52"
+      },
+      "page_b": {
+        "url": "https://trustcontabilidade.com.br/sociedade-limitada-saiba-o-que-e-e-conheca-as-principais-vantagens/",
+        "text_sha256": "4360e4ff2fdbd963968573e50cb3e015719c838b3d186cb88c67dc4d5e136b4a"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-4c19d01be56c",
+      "page_a": {
+        "url": "https://trustcontabilidade.com.br/estrategias-de-marketing-que-voce-precisa-usar-para-otimizar-as-vendas-em-seu-negocio/",
+        "text_sha256": "05bbb9773529db59f4b1a2275a795a77765f2fd77c554addc0499f8bf5635e52"
+      },
+      "page_b": {
+        "url": "https://trustcontabilidade.com.br/falencia-pode-ajudar-voce-a-reestruturar-sua-empresa-entenda-como-funciona/",
+        "text_sha256": "2bec4b3fbbffcdae1750a0772a33a9369b7d272c09fc35280cc4b9ec54727efc"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-4fd66b20624d",
+      "page_a": {
+        "url": "https://trustcontabilidade.com.br/falencia-pode-ajudar-voce-a-reestruturar-sua-empresa-entenda-como-funciona/",
+        "text_sha256": "2bec4b3fbbffcdae1750a0772a33a9369b7d272c09fc35280cc4b9ec54727efc"
+      },
+      "page_b": {
+        "url": "https://trustcontabilidade.com.br/sociedade-limitada-saiba-o-que-e-e-conheca-as-principais-vantagens/",
+        "text_sha256": "4360e4ff2fdbd963968573e50cb3e015719c838b3d186cb88c67dc4d5e136b4a"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-5d789b7c3abc",
+      "page_a": {
+        "url": "https://www.demarest.com.br/areas-de-atuacao/bancario-e-financeiro/",
+        "text_sha256": "fc2d56b3be87e3c6a1029ad292e39c646939c2f7bd0a530460d8853190f235de"
+      },
+      "page_b": {
+        "url": "https://www.demarest.com.br/areas-de-atuacao/concorrencial/",
+        "text_sha256": "6c2c47f2154b97da7a7644acc1d9447056a3aeb50226e8b786230388b8d3d480"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-6175104e0187",
+      "page_a": {
+        "url": "https://pilot.com/blog/ai-bookkeeping-guide",
+        "text_sha256": "638758e8dbb08f3657d2ae0e5055bb6e91989ccd40c5e6a004d7c5b71e799e5d"
+      },
+      "page_b": {
+        "url": "https://pilot.com/blog/bookkeeping-with-pilot-how-it-works",
+        "text_sha256": "cdef896d8269f4f1521619239c1c8a753afc5c7a3bf997ed0d0c6fc935b23466"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-73098ef13bcd",
+      "page_a": {
+        "url": "https://pilot.com/blog/ai-bookkeeping-guide",
+        "text_sha256": "638758e8dbb08f3657d2ae0e5055bb6e91989ccd40c5e6a004d7c5b71e799e5d"
+      },
+      "page_b": {
+        "url": "https://pilot.com/blog/how-to-choose-accounting-software",
+        "text_sha256": "a6c7611ce66079da8434c81dc090d6f0ca699541734314870f4f9b3b2a8f2a69"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-84455113dbbd",
+      "page_a": {
+        "url": "https://www.demarest.com.br/areas-de-atuacao/agronegocio/",
+        "text_sha256": "939d6031ed721df9a38a50ec6ef1c07851b9f4458ba4d762a689264b1872ad16"
+      },
+      "page_b": {
+        "url": "https://www.demarest.com.br/areas-de-atuacao/bancario-e-financeiro/",
+        "text_sha256": "fc2d56b3be87e3c6a1029ad292e39c646939c2f7bd0a530460d8853190f235de"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-9465d7b5609b",
+      "page_a": {
+        "url": "https://pilot.com/blog/bookkeeping-vs-accounting",
+        "text_sha256": "b3a7137b675324b2b6967a9e1e2fe577639430b000ba60f40ab8846978363e4e"
+      },
+      "page_b": {
+        "url": "https://pilot.com/blog/how-to-choose-accounting-software",
+        "text_sha256": "a6c7611ce66079da8434c81dc090d6f0ca699541734314870f4f9b3b2a8f2a69"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-b88098f918f9",
+      "page_a": {
+        "url": "https://pilot.com/blog/ai-bookkeeping-guide",
+        "text_sha256": "638758e8dbb08f3657d2ae0e5055bb6e91989ccd40c5e6a004d7c5b71e799e5d"
+      },
+      "page_b": {
+        "url": "https://pilot.com/blog/bookkeeping-vs-accounting",
+        "text_sha256": "b3a7137b675324b2b6967a9e1e2fe577639430b000ba60f40ab8846978363e4e"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-c3c700296fd3",
+      "page_a": {
+        "url": "https://www.demarest.com.br/areas-de-atuacao/ambiental/",
+        "text_sha256": "1b2bed720c1fb0eff506f4a4996617f580bc0c7de7d784ed449797f9c5bfb328"
+      },
+      "page_b": {
+        "url": "https://www.demarest.com.br/areas-de-atuacao/concorrencial/",
+        "text_sha256": "6c2c47f2154b97da7a7644acc1d9447056a3aeb50226e8b786230388b8d3d480"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-d3803577adbe",
+      "page_a": {
+        "url": "https://www.demarest.com.br/areas-de-atuacao/ambiental/",
+        "text_sha256": "1b2bed720c1fb0eff506f4a4996617f580bc0c7de7d784ed449797f9c5bfb328"
+      },
+      "page_b": {
+        "url": "https://www.demarest.com.br/areas-de-atuacao/bancario-e-financeiro/",
+        "text_sha256": "fc2d56b3be87e3c6a1029ad292e39c646939c2f7bd0a530460d8853190f235de"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-d58d220404ff",
+      "page_a": {
+        "url": "https://pilot.com/blog/ai-bookkeeping-guide",
+        "text_sha256": "638758e8dbb08f3657d2ae0e5055bb6e91989ccd40c5e6a004d7c5b71e799e5d"
+      },
+      "page_b": {
+        "url": "https://pilot.com/blog/what-does-a-bookkeeper-do",
+        "text_sha256": "93224915d4cde8b111c56ed154c5999e40b91ddf7dd178b7f3ea81865277475d"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-d725983be425",
+      "page_a": {
+        "url": "https://www.demarest.com.br/areas-de-atuacao/agronegocio/",
+        "text_sha256": "939d6031ed721df9a38a50ec6ef1c07851b9f4458ba4d762a689264b1872ad16"
+      },
+      "page_b": {
+        "url": "https://www.demarest.com.br/areas-de-atuacao/concorrencial/",
+        "text_sha256": "6c2c47f2154b97da7a7644acc1d9447056a3aeb50226e8b786230388b8d3d480"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-d7b24f490c0a",
+      "page_a": {
+        "url": "https://www.cliffordchance.com/expertise/sectors/energy_and_resources.html",
+        "text_sha256": "5eb34662d47575de48b693c20cb378ff545dd6e76b6bb2d74a8421ba21e9a407"
+      },
+      "page_b": {
+        "url": "https://www.cliffordchance.com/expertise/sectors/insurance.html",
+        "text_sha256": "146365a64ae89a8866db6e3b2a9a3aba671863fe198831cdee19521712b8c50e"
+      },
+      "same_page_family": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-d94446b471e5",
+      "page_a": {
+        "url": "https://trustcontabilidade.com.br/ipi-conheca-os-planos-do-governo-para-esse-tributo-voce-nao-vai-acreditar/",
+        "text_sha256": "625be8f9d410300b43176bbfb84a12d547bb47361caad4afb3292c081aad1a87"
+      },
+      "page_b": {
+        "url": "https://trustcontabilidade.com.br/sera-que-um-processo-seletivo-pode-acabar-gerando-vinculo-empregaticio/",
+        "text_sha256": "9f928bc2b53eda444cac3f1e2589bbbaf34ba45f60ec621f09cbb829c88da47e"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-dbbcd1e98256",
+      "page_a": {
+        "url": "https://pilot.com/blog/how-to-choose-accounting-software",
+        "text_sha256": "a6c7611ce66079da8434c81dc090d6f0ca699541734314870f4f9b3b2a8f2a69"
+      },
+      "page_b": {
+        "url": "https://pilot.com/blog/what-does-a-bookkeeper-do",
+        "text_sha256": "93224915d4cde8b111c56ed154c5999e40b91ddf7dd178b7f3ea81865277475d"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-e183996041a9",
+      "page_a": {
+        "url": "https://trustcontabilidade.com.br/estrategias-de-marketing-que-voce-precisa-usar-para-otimizar-as-vendas-em-seu-negocio/",
+        "text_sha256": "05bbb9773529db59f4b1a2275a795a77765f2fd77c554addc0499f8bf5635e52"
+      },
+      "page_b": {
+        "url": "https://trustcontabilidade.com.br/ipi-conheca-os-planos-do-governo-para-esse-tributo-voce-nao-vai-acreditar/",
+        "text_sha256": "625be8f9d410300b43176bbfb84a12d547bb47361caad4afb3292c081aad1a87"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-e6db9df1ade6",
+      "page_a": {
+        "url": "https://trustcontabilidade.com.br/estrategias-de-marketing-que-voce-precisa-usar-para-otimizar-as-vendas-em-seu-negocio/",
+        "text_sha256": "05bbb9773529db59f4b1a2275a795a77765f2fd77c554addc0499f8bf5635e52"
+      },
+      "page_b": {
+        "url": "https://trustcontabilidade.com.br/sera-que-um-processo-seletivo-pode-acabar-gerando-vinculo-empregaticio/",
+        "text_sha256": "9f928bc2b53eda444cac3f1e2589bbbaf34ba45f60ec621f09cbb829c88da47e"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-ec675124ccb0",
+      "page_a": {
+        "url": "https://pilot.com/blog/bookkeeping-with-pilot-how-it-works",
+        "text_sha256": "cdef896d8269f4f1521619239c1c8a753afc5c7a3bf997ed0d0c6fc935b23466"
+      },
+      "page_b": {
+        "url": "https://pilot.com/blog/what-does-a-bookkeeper-do",
+        "text_sha256": "93224915d4cde8b111c56ed154c5999e40b91ddf7dd178b7f3ea81865277475d"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35V04-ee6d10b31f00",
+      "page_a": {
+        "url": "https://trustcontabilidade.com.br/falencia-pode-ajudar-voce-a-reestruturar-sua-empresa-entenda-como-funciona/",
+        "text_sha256": "2bec4b3fbbffcdae1750a0772a33a9369b7d272c09fc35280cc4b9ec54727efc"
+      },
+      "page_b": {
+        "url": "https://trustcontabilidade.com.br/sera-que-um-processo-seletivo-pode-acabar-gerando-vinculo-empregaticio/",
+        "text_sha256": "9f928bc2b53eda444cac3f1e2589bbbaf34ba45f60ec621f09cbb829c88da47e"
+      },
+      "same_page_family": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    }
+  ],
+  "scoring_authorized": false
+}

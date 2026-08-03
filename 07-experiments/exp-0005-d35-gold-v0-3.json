@@ -1,0 +1,226 @@
+{
+  "gold_version": "d35-gold-v0.3",
+  "status": "laboratory_gold_not_scoring",
+  "provenance": {
+    "reviewer_a_sha256": "34966407f7bf2b4da0ce59173f40c32e29a22220fda8eec51bec2870e4bd13b2",
+    "reviewer_b_sha256": "1ea0c41f1c29a135efb803ad57cb3fa7f026342cd5f30ce8808cbd8c28bfa032",
+    "adjudication_sha256": "37ee9ea9648cba77ce8f88d71881fc0c2289f1a56f77054cd4e032beabb18b11"
+  },
+  "counts": {
+    "total": 13,
+    "eligible": 6,
+    "development_eligible": 5,
+    "holdout_eligible": 1
+  },
+  "items": [
+    {
+      "pair_id": "D35PAIR-3fb07173f6a2",
+      "partition": "holdout",
+      "page_type": "other",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil/",
+        "text_sha256": "c2bce75d2c10647403ddd6029768bde378667832376b2638d03614d9a7378010"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/trabalhe-conosco/",
+        "text_sha256": "5de98624a1b102b2516070cad1fed2cd4fd90b3b2e9fb1ebddc63eca7eebc389"
+      },
+      "page_type_valid": "no",
+      "label": "repeated_template",
+      "resolution": "third_party_adjudication"
+    },
+    {
+      "pair_id": "D35PAIR-40e55c275957",
+      "partition": "holdout",
+      "page_type": "specialty",
+      "page_a": {
+        "url": "https://www.cliffordchance.com/expertise/sectors.html",
+        "text_sha256": "ddcee2b3ed81c93cd43e0ee25660484a242da5d89eacd92030c6062fe2987f7c"
+      },
+      "page_b": {
+        "url": "https://www.cliffordchance.com/expertise/sectors/consumer_goods_and_retail.html",
+        "text_sha256": "7aca40d882c503227197c0f91020d480017b9bc956b1b6d92d8eaa278570fdfb"
+      },
+      "page_type_valid": "no",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35PAIR-5521266d3c4a",
+      "partition": "holdout",
+      "page_type": "specialty",
+      "page_a": {
+        "url": "https://trustcontabilidade.com.br/contabilidade-para-dentistas-em-recife-pe/",
+        "text_sha256": "4115beaec86d1b569ff5b8701041e132e72bbdca65103e6d4f200b4449a71283"
+      },
+      "page_b": {
+        "url": "https://trustcontabilidade.com.br/contabilidade-para-veterinarios-em-recife-pe/",
+        "text_sha256": "df79fdc5fe104bb1a0f62b72372adaa1d1b490ad7c009c9eef14be951aef1fbe"
+      },
+      "page_type_valid": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35PAIR-7aed671378fc",
+      "partition": "development",
+      "page_type": "specialty",
+      "page_a": {
+        "url": "https://www.cliffordchance.com/expertise/sectors.html",
+        "text_sha256": "ddcee2b3ed81c93cd43e0ee25660484a242da5d89eacd92030c6062fe2987f7c"
+      },
+      "page_b": {
+        "url": "https://www.cliffordchance.com/expertise/sectors/banks.html",
+        "text_sha256": "ec46320e4e13ae0a6632feadc9139539a8c3b757aa8141c86b4b741250b43289"
+      },
+      "page_type_valid": "no",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35PAIR-9033e6ea2634",
+      "partition": "development",
+      "page_type": "specialty",
+      "page_a": {
+        "url": "https://www.cliffordchance.com/expertise/sectors/banks.html",
+        "text_sha256": "ec46320e4e13ae0a6632feadc9139539a8c3b757aa8141c86b4b741250b43289"
+      },
+      "page_b": {
+        "url": "https://www.cliffordchance.com/expertise/sectors/consumer_goods_and_retail.html",
+        "text_sha256": "7aca40d882c503227197c0f91020d480017b9bc956b1b6d92d8eaa278570fdfb"
+      },
+      "page_type_valid": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35PAIR-9aa021548552",
+      "partition": "development",
+      "page_type": "specialty",
+      "page_a": {
+        "url": "https://jhn.jur.adv.br/adm-de-bens-e-servicos",
+        "text_sha256": "5b713e15eb65382e8f8a933e4248bb8f14c7512c021610b81a89d6413c35995c"
+      },
+      "page_b": {
+        "url": "https://jhn.jur.adv.br/areas-de-atuacao",
+        "text_sha256": "22fcec4585f8082b6a83f23250d0a50083e6b012621547ccb59e38ea485ca80c"
+      },
+      "page_type_valid": "no",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35PAIR-afc4a8cd4f69",
+      "partition": "development",
+      "page_type": "specialty",
+      "page_a": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-agencia-de-marketing-digital/",
+        "text_sha256": "9ab73d6a986613907168a1b161641777d0a00bc5f2bf3f915ea4df8039da972c"
+      },
+      "page_b": {
+        "url": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-arquitetos-e-designers-de-interiores/",
+        "text_sha256": "c83fe9175084ad1087706dbb49f1bad8768b2ac2d371d174fdf0d18f719e42b3"
+      },
+      "page_type_valid": "yes",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35PAIR-b5cd6e742219",
+      "partition": "development",
+      "page_type": "institutional",
+      "page_a": {
+        "url": "https://www.demarest.com.br/nossa-historia/",
+        "text_sha256": "5dbe72d2f67eec404739cc2082e99b313ac479dc9afafbe88ee26c37f31b317a"
+      },
+      "page_b": {
+        "url": "https://www.demarest.com.br/sobre-nos/",
+        "text_sha256": "96dddc1c350e9967f1a0061eb3bab95f25e304c8369b1d674b908299d705bfbd"
+      },
+      "page_type_valid": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35PAIR-b5e6ac2601ce",
+      "partition": "development",
+      "page_type": "specialty",
+      "page_a": {
+        "url": "https://trustcontabilidade.com.br/contabilidade-para-dentistas-em-recife-pe/",
+        "text_sha256": "4115beaec86d1b569ff5b8701041e132e72bbdca65103e6d4f200b4449a71283"
+      },
+      "page_b": {
+        "url": "https://trustcontabilidade.com.br/contabilidade-para-medicos-em-recife-pe/",
+        "text_sha256": "bf158ab1c695bc68d515b43fae266fbb035cf6e6009f70c3014993635e2d54e3"
+      },
+      "page_type_valid": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35PAIR-da3fa00cc611",
+      "partition": "development",
+      "page_type": "specialty",
+      "page_a": {
+        "url": "https://trustcontabilidade.com.br/contabilidade-para-medicos-em-recife-pe/",
+        "text_sha256": "bf158ab1c695bc68d515b43fae266fbb035cf6e6009f70c3014993635e2d54e3"
+      },
+      "page_b": {
+        "url": "https://trustcontabilidade.com.br/contabilidade-para-veterinarios-em-recife-pe/",
+        "text_sha256": "df79fdc5fe104bb1a0f62b72372adaa1d1b490ad7c009c9eef14be951aef1fbe"
+      },
+      "page_type_valid": "yes",
+      "label": "distinct_content",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35PAIR-e69a312b65e8",
+      "partition": "development",
+      "page_type": "specialty",
+      "page_a": {
+        "url": "https://www.cliffordchance.com/expertise.html",
+        "text_sha256": "0553899b320a42a26c65f3a0ccee8de20dbc4e776c1a1a5a5dc6f8efc3e56b46"
+      },
+      "page_b": {
+        "url": "https://www.cliffordchance.com/expertise/sectors/consumer_goods_and_retail.html",
+        "text_sha256": "7aca40d882c503227197c0f91020d480017b9bc956b1b6d92d8eaa278570fdfb"
+      },
+      "page_type_valid": "no",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    },
+    {
+      "pair_id": "D35PAIR-e82eb3de2fc1",
+      "partition": "development",
+      "page_type": "specialty",
+      "page_a": {
+        "url": "https://www.cliffordchance.com/expertise.html",
+        "text_sha256": "0553899b320a42a26c65f3a0ccee8de20dbc4e776c1a1a5a5dc6f8efc3e56b46"
+      },
+      "page_b": {
+        "url": "https://www.cliffordchance.com/expertise/sectors.html",
+        "text_sha256": "ddcee2b3ed81c93cd43e0ee25660484a242da5d89eacd92030c6062fe2987f7c"
+      },
+      "page_type_valid": "no",
+      "label": "repeated_template",
+      "resolution": "third_party_adjudication"
+    },
+    {
+      "pair_id": "D35PAIR-f8cf757458a8",
+      "partition": "development",
+      "page_type": "specialty",
+      "page_a": {
+        "url": "https://www.cliffordchance.com/expertise.html",
+        "text_sha256": "0553899b320a42a26c65f3a0ccee8de20dbc4e776c1a1a5a5dc6f8efc3e56b46"
+      },
+      "page_b": {
+        "url": "https://www.cliffordchance.com/expertise/sectors/banks.html",
+        "text_sha256": "ec46320e4e13ae0a6632feadc9139539a8c3b757aa8141c86b4b741250b43289"
+      },
+      "page_type_valid": "no",
+      "label": "repeated_template",
+      "resolution": "reviewer_consensus"
+    }
+  ],
+  "scoring_authorized": false
+}

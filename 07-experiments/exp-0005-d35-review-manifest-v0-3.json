@@ -1,0 +1,16 @@
+{
+  "packet_version": "d35-review-packet-v0.3",
+  "packet_sha256": "e42a56c53a39092415f37c242d58bdadaac951178c00641c6731d82797a05981",
+  "source_snapshot_sha256": "f74665ba87bb96c005eb8bcfaccaed22d40dcd032a4cd26b2b50a0860fd65891",
+  "counts": {
+    "pairs": 13,
+    "development": 10,
+    "holdout": 3,
+    "candidates_with_pairs": 5
+  },
+  "reviewers": [
+    "reviewer-a",
+    "reviewer-b"
+  ],
+  "policy": "reviewers label independently; no algorithm output is provided; disagreements go to adjudication; holdout remains sealed until rules are frozen"
+}

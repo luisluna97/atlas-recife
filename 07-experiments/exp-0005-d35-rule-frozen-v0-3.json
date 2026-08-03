@@ -1,0 +1,19 @@
+{
+  "rule_version": "d35-rule-v0.3",
+  "status": "frozen_before_holdout",
+  "feature": "clean_jaccard_v0.2",
+  "prediction_rule": "repeated_template when clean_jaccard >= threshold",
+  "threshold": 0.29834093525208116,
+  "development_metrics": {
+    "threshold": 0.29834093525208116,
+    "tp": 2,
+    "tn": 3,
+    "fp": 0,
+    "fn": 0,
+    "balanced_accuracy": 1,
+    "accuracy": 1
+  },
+  "development_n": 5,
+  "gold_sha256": "a9e03741cc5693b82ddd35ecf898fbf0fffe7d807e163e80763b47ff3cbe2ee5",
+  "scoring_authorized": false
+}

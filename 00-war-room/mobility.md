@@ -25,3 +25,5 @@ Segredos, cache, estado de janelas e temporários listados no `.gitignore`.
 
 Uma conversa só foi incorporada ao Atlas quando seus resultados duráveis foram
 registrados e publicados no GitHub.
+
+Handoff atual e prompt de retomada: [[handoff-next-machine]].

@@ -10,3 +10,9 @@
 8. Pesquisa contínua.
 9. Qualidade auditável.
 10. Produto adaptativo.
+11. Experiência humana por desenho: cada interação deve demonstrar contexto,
+    continuidade, personalidade e cuidado, sem estética, texto ou atendimento
+    genéricos de IA.
+12. Naturalidade não autoriza engano: agentes não inventam identidade humana e
+    automação relevante é informada quando necessária para confiança, escolha,
+    segurança, privacidade ou conformidade.

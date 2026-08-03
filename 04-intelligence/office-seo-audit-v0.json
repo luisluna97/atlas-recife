@@ -1,0 +1,124 @@
+{
+  "audit_version": "office-seo-audit-v0.1",
+  "generated_at": "2026-08-03T18:44:36.510Z",
+  "audits": [
+    {
+      "id": "rs-consultoria",
+      "name": "RS Consultoria Empresarial Contábil",
+      "url": "https://rsconsultoria-pe.com.br/",
+      "observed_at": "2026-08-03T18:44:31.917Z",
+      "executor": "code:office_seo_audit_v0.mjs",
+      "method_version": "v0.1",
+      "home": {
+        "requested_url": "https://rsconsultoria-pe.com.br/",
+        "final_url": "https://rsconsultoria-pe.com.br/",
+        "http_status": 200,
+        "response_ms_observed": 561,
+        "title": "RS Consultoria Empresarial Contábil",
+        "meta_description": null,
+        "canonical": null,
+        "robots_meta": null,
+        "lang": null,
+        "viewport": true,
+        "h1_count": 0,
+        "h2_count": 7,
+        "image_count": 5,
+        "image_missing_alt_count": 5,
+        "json_ld_count": 0,
+        "open_graph": false,
+        "internal_link_count": 5,
+        "external_link_count": 14,
+        "word_count_approx": 404,
+        "whatsapp_present": false,
+        "phone_link_present": false,
+        "form_present": true,
+        "analytics_detected": false,
+        "facebook_pixel_detected": false,
+        "same_domain_links": [
+          "https://rsconsultoria-pe.com.br/index.php",
+          "https://rsconsultoria-pe.com.br/empresa.php",
+          "https://rsconsultoria-pe.com.br/servicos.php",
+          "https://rsconsultoria-pe.com.br/contato.php",
+          "http://www.rsconsultoria-pe.com.br/cliente/login.php/arquivos"
+        ]
+      },
+      "robots_txt": {
+        "status": 404,
+        "final_url": "https://rsconsultoria-pe.com.br/robots.txt",
+        "excerpt": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<p>Additionally, a 404 Not Found\nerror was encountered while trying to use an ErrorDocument to handle the request.</p>\n</body></html>\n"
+      },
+      "sitemap_xml": {
+        "status": 404,
+        "final_url": "https://rsconsultoria-pe.com.br/sitemap.xml",
+        "excerpt": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<p>Additionally, a 404 Not Found\nerror was encountered while trying to use an ErrorDocument to handle the request.</p>\n</body></html>\n"
+      }
+    },
+    {
+      "id": "nsc-solucoes",
+      "name": "NSC Soluções Empresariais",
+      "url": "https://nscsolucoesempresariais.com.br/",
+      "observed_at": "2026-08-03T18:44:33.113Z",
+      "executor": "code:office_seo_audit_v0.mjs",
+      "method_version": "v0.1",
+      "home": {
+        "requested_url": "https://nscsolucoesempresariais.com.br/",
+        "final_url": "https://nscsolucoesempresariais.com.br/",
+        "http_status": 200,
+        "response_ms_observed": 988,
+        "title": "Escritório de contabilidade Recife e Boa Viagem PE - NSC Contabilidade e Soluções empresariais Recife PE",
+        "meta_description": null,
+        "canonical": "https://nscsolucoesempresariais.com.br/",
+        "robots_meta": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "lang": "pt-BR",
+        "viewport": true,
+        "h1_count": 0,
+        "h2_count": 7,
+        "image_count": 18,
+        "image_missing_alt_count": 0,
+        "json_ld_count": 2,
+        "open_graph": true,
+        "internal_link_count": 16,
+        "external_link_count": 0,
+        "word_count_approx": 438,
+        "whatsapp_present": true,
+        "phone_link_present": false,
+        "form_present": true,
+        "analytics_detected": true,
+        "facebook_pixel_detected": false,
+        "same_domain_links": [
+          "https://nscsolucoesempresariais.com.br/",
+          "https://nscsolucoesempresariais.com.br/controle-financeiro-do-seu-negocio/",
+          "https://nscsolucoesempresariais.com.br/faca-o-seu-certificado-digital-para-empresas/",
+          "https://nscsolucoesempresariais.com.br/escritorio-de-contabilidade-para-advogados/",
+          "https://nscsolucoesempresariais.com.br/escritorio-de-contabilidade-para-comercio-varejista/",
+          "https://nscsolucoesempresariais.com.br/escritorio-de-contabilidade-para-mei/",
+          "https://nscsolucoesempresariais.com.br/escritorio-de-contabilidade-para-pousadas/",
+          "https://nscsolucoesempresariais.com.br/escritorio-de-contabilidade-para-restaurantes/",
+          "https://nscsolucoesempresariais.com.br/escritorio-de-contabilidade-para-salao-de-beleza/",
+          "https://nscsolucoesempresariais.com.br/escritorio-de-contabilidade-para-declaracao-de-imposto-de-renda-2018/",
+          "https://nscsolucoesempresariais.com.br/portal-nfe/",
+          "https://nscsolucoesempresariais.com.br/portal-erp/",
+          "https://nscsolucoesempresariais.com.br/contabilidade-online/",
+          "https://nscsolucoesempresariais.com.br/blog-de-contabilidade/",
+          "https://nscsolucoesempresariais.com.br/cdn-cgi/l/email-protection",
+          "https://nscsolucoesempresariais.com.br/politica-de-privacidade/"
+        ]
+      },
+      "robots_txt": {
+        "status": 200,
+        "final_url": "https://nscsolucoesempresariais.com.br/robots.txt",
+        "excerpt": "# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://nscsolucoesempresariais.com.br/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK"
+      },
+      "sitemap_xml": {
+        "status": 200,
+        "final_url": "https://nscsolucoesempresariais.com.br/sitemap_index.xml",
+        "excerpt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><?xml-stylesheet type=\"text/xsl\" href=\"//nscsolucoesempresariais.com.br/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n\t<sitemap>\n\t\t<loc>https://nscsolucoesempresariais.com.br/post-sitemap.xml</loc>\n\t\t<lastmod>2025-05-09T14:42:09+00:00</lastmod>\n\t</sitemap>\n\t<sitemap>\n\t\t<loc>https://nscsolucoesempresariais.com.br/page-sitemap.xml</loc>\n\t\t<lastmod>2022-11-18T13:52:50+00:00</lastmod>\n\t</sitemap>\n\t<sitemap>\n\t\t<loc>https://nscsolucoesempresariais.com.br/category-sitemap.xml</loc>\n\t\t<lastmod>2025-05-09T14:42:09+00:00</lastmod>\n\t</sitemap>\n\t<sitemap>\n\t\t<loc>https://nscsolucoesempresariais.com.br/wplead_list_category-sitemap.xml</loc>\n\t\t<lastmod>2019-09-28T13:25:25+00:00</lastmod>\n\t</sitemap>\n\t<sitemap>\n\t\t<loc>https://nscsolucoesempresariais.com.br/author-sitemap.xml</loc>\n\t\t<lastmod>2024-03-27T12:33:32+00:00</lastmod>\n\t</sitemap>\n</sitemapindex>\n<!-- XML Sitemap generated by Yoast SEO -->"
+      }
+    }
+  ],
+  "limitations": [
+    "Public surface only; no Search Console, analytics, CRM, ranking, backlink or conversion data.",
+    "Response time is a single observation, not a performance benchmark.",
+    "Detected tags do not prove correct configuration or business impact."
+  ]
+}

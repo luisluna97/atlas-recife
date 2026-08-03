@@ -1,0 +1,7 @@
+interface:
+  display_name: "Atlas Public Language"
+  short_description: "Humaniza textos públicos e preserva conversão"
+  default_prompt: "Use $atlas-public-language para revisar este texto público do Atlas com linguagem humana, direta e comercial."
+
+policy:
+  allow_implicit_invocation: true
