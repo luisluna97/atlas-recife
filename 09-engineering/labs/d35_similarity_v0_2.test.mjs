@@ -1,0 +1,17 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import { analyze, pageType } from './d35_similarity_v0_2.mjs';
+const snapshot=JSON.parse(fs.readFileSync('07-experiments/exp-0005-d35-input-snapshot-v0-1.json','utf8'));
+const benchmark=JSON.parse(fs.readFileSync('07-experiments/exp-0005-d35-benchmark-v0-2.json','utf8'));
+const out=analyze(snapshot,benchmark);
+assert.equal(out.method,'d35-similarity-lab-v0.2');
+assert.equal(out.results.length,8);
+assert.equal(out.benchmark.passed,4);
+assert.equal(out.benchmark.total,4);
+assert.equal(pageType({page_url:'https://example.test/servicos',page_role:''}),'specialty');
+assert.equal(pageType({page_url:'https://example.test/blog/post',page_role:''}),'editorial');
+assert.ok(out.benchmark.cases.find(x=>x.id==='B01').observed.clean_jaccard>=0.5);
+assert.ok(out.benchmark.cases.find(x=>x.id==='B02').observed.clean_jaccard>=0.5);
+assert.ok(out.benchmark.cases.find(x=>x.id==='B03').observed.clean_jaccard<=0.3);
+assert.ok(out.benchmark.cases.find(x=>x.id==='B04').observed.clean_jaccard<=0.3);
+console.log('d35_similarity_v0_2: 10 assertions passed');

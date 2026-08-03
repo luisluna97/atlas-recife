@@ -14,5 +14,7 @@ Preserva contexto importante independentemente do chat ou da máquina.
 ## Índice
 
 - [2026-07-30 — Fundação e kickoff](2026-07-30-foundation-kickoff.md)
+- [2026-07-31 — Dois caminhos demonstrativos](2026-07-31-two-demo-paths.md)
+- [2026-07-31 — Distinção visual com IA](2026-07-31-visual-distinction.md)
 
 Use o [template](../templates/conversation-record.md).

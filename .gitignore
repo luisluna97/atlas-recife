@@ -3,6 +3,7 @@
 !.env.example
 
 node_modules/
+.npm-cache/
 .venv/
 __pycache__/
 
@@ -18,3 +19,6 @@ Thumbs.db
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache
+
+# Scratch local descartável; resultados duráveis vivem nas pastas numeradas.
+/.d35_reviewer_b_update.js

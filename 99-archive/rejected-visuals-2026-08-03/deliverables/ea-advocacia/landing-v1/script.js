@@ -1,0 +1,1 @@
+document.querySelectorAll('.practice details').forEach(item=>item.addEventListener('toggle',()=>{if(item.open)document.querySelectorAll('.practice details').forEach(other=>{if(other!==item)other.open=false})}));

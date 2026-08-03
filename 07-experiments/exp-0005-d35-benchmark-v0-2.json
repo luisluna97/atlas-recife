@@ -1,0 +1,44 @@
+{
+  "benchmark_version": "d35-benchmark-v0.2",
+  "status": "provisional_human_labels_for_laboratory_gate",
+  "labeler": "Codex acting as Engineering Experimental; independent Auditor required",
+  "thresholds": {
+    "repeated_template_min": 0.5,
+    "distinct_content_max": 0.3
+  },
+  "cases": [
+    {
+      "id": "B01",
+      "candidate_id": "CAND-ACCOUNT-REC-14",
+      "a": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-agencia-de-marketing-digital/",
+      "b": "https://marjuhh.com.br/assessoria-contabil-em-recife-para-arquitetos-e-designers-de-interiores/",
+      "label": "repeated_template",
+      "rationale": "v0.1 extreme; equivalent specialty landing pages require mandatory template review"
+    },
+    {
+      "id": "B02",
+      "candidate_id": "CAND-LEGAL-INT-03",
+      "a": "https://www.cliffordchance.com/expertise/sectors/banks.html",
+      "b": "https://www.cliffordchance.com/expertise/sectors/consumer_goods_and_retail.html",
+      "label": "repeated_template",
+      "rationale": "v0.1 near-duplicate extreme between equivalent sector pages"
+    },
+    {
+      "id": "B03",
+      "candidate_id": "CAND-ACCOUNT-REC-18",
+      "a": "https://trustcontabilidade.com.br/contabilidade-para-dentistas-em-recife-pe/",
+      "b": "https://trustcontabilidade.com.br/contabilidade-para-veterinarios-em-recife-pe/",
+      "label": "distinct_content",
+      "rationale": "equivalent specialty pages with low v0.1 overlap; negative control"
+    },
+    {
+      "id": "B04",
+      "candidate_id": "CAND-LEGAL-REC-03",
+      "a": "https://jhn.jur.adv.br/areas-de-atuacao",
+      "b": "https://jhn.jur.adv.br/adm-de-bens-e-servicos",
+      "label": "distinct_content",
+      "rationale": "equivalent practice pages with low v0.1 overlap; negative control"
+    }
+  ]
+}
+
