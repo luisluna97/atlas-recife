@@ -184,3 +184,7 @@ Use `00-war-room/templates/decision-record.md` para novos ADRs.
 ## Decisão incorporada em 2026-08-03 — prioridade comercial
 
 - **ADR-0057:** O próximo ranking do Atlas prioriza chance de venda. A hipótese comercial principal é que um contraste visual forte entre site atual e demonstração nova aumenta a capacidade de abrir e sustentar a conversa; o diagnóstico específico de SEO conecta essa transformação à descoberta e aos contatos. Transformação visual é o sinal de entrada prioritário, mas não prova fechamento. O ranking deve manter separadas e visíveis oportunidade visual, oportunidade de busca e prontidão comercial, incluindo empresa ativa, acesso ao decisor, capacidade aparente e momento. A hipótese será recalibrada com respostas, reuniões, propostas e contratos reais.
+
+## Decisão incorporada em 2026-08-03 — estágio 0 da prioridade comercial
+
+- **ADR-0058:** Os pesos iniciais da prioridade comercial entram em calibração como 45% transformação visual, 25% oportunidade de SEO, 15% material demonstrável, 10% oportunidade de contato e 5% prontidão operacional. No estágio 0, antiguidade técnica foi usada somente para ordenar capturas e não como nota visual. A presença de Sinergia em segundo lugar falsificou o uso dessa proxy como ranking comercial; a saída fica aceita como fila operacional e rejeitada como probabilidade ou prioridade final. Promoção exige screenshots desktop/mobile, diagnóstico de busca e gate comercial. Pesos serão revistos com evidência visual e resultados reais de prospecção.
